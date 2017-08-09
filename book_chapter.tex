@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 
 % Mise en page
@@ -11,7 +11,7 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{mathabx}
 \usepackage{xcolor}
-\usepackage{natbib}
+\usepackage[round]{natbib}
 \usepackage{enumerate}
 \usepackage{hyperref}
 \usepackage{graphicx}
@@ -35,7 +35,7 @@
 
 \tableofcontents
 
-\input{Motivation} 1 page %% MM
+\input{Motivation} 1 page %% MM	
 
 \input{Error_Sources} 1 page %% ABH
 
@@ -46,6 +46,9 @@
 % \input{Testing}
 
 \input{Extensions} 1 - 2 pages %% ABH
+
+\bibliographystyle{plainnat}
+\bibliography{robustness.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
