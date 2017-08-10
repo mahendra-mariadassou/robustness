@@ -14,7 +14,15 @@
 \usepackage[round]{natbib}
 \usepackage{enumerate}
 \usepackage{hyperref}
+\usepackage{array}
 \usepackage{graphicx}
+
+% custom colors
+\newcommand{\noir}[1]{\textcolor[gray]{0}{#1}}   %% black
+\newcommand{\gris}[1]{\textcolor[gray]{0.5}{#1}}
+\newcommand{\gray}[1]{\textcolor[gray]{0}{\text{#1}}}
+\newcommand{\grey}[1]{\textcolor[gray]{0.5}{\text{#1}}} %% light-gray
+
 
 %opening
 \title{Tree Evaluation and Robustness Testing}
@@ -35,7 +43,7 @@
 
 \tableofcontents
 
-\input{Motivation} 1 page %% MM	
+\input{Motivation}
 
 \input{Error_Sources} 1 page %% ABH
 

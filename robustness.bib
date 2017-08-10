@@ -2,6 +2,32 @@
 % Encoding: UTF8
 
 
+@Article{Anisimova2011,
+  Title                    = {Survey of branch support methods demonstrates accuracy, power, and robustness of fast likelihood-based approximation schemes.},
+  Author                   = {Maria Anisimova and Manuel Gil and Jean-François Dufayard and Christophe Dessimoz and Olivier Gascuel},
+  Journal                  = {Syst Biol},
+  Year                     = {2011},
+
+  Month                    = {Oct},
+  Number                   = {5},
+  Pages                    = {685--699},
+  Volume                   = {60},
+
+  Abstract                 = {Phylogenetic inference and evaluating support for inferred relationships is at the core of many studies testing evolutionary hypotheses. Despite the popularity of nonparametric bootstrap frequencies and Bayesian posterior probabilities, the interpretation of these measures of tree branch support remains a source of discussion. Furthermore, both methods are computationally expensive and become prohibitive for large data sets. Recent fast approximate likelihood-based measures of branch supports (approximate likelihood ratio test [aLRT] and Shimodaira-Hasegawa [SH]-aLRT) provide a compelling alternative to these slower conventional methods, offering not only speed advantages but also excellent levels of accuracy and power. Here we propose an additional method: a Bayesian-like transformation of aLRT (aBayes). Considering both probabilistic and frequentist frameworks, we compare the performance of the three fast likelihood-based methods with the standard bootstrap (SBS), the Bayesian approach, and the recently introduced rapid bootstrap. Our simulations and real data analyses show that with moderate model violations, all tests are sufficiently accurate, but aLRT and aBayes offer the highest statistical power and are very fast. With severe model violations aLRT, aBayes and Bayesian posteriors can produce elevated false-positive rates. With data sets for which such violation can be detected, we recommend using SH-aLRT, the nonparametric version of aLRT based on a procedure similar to the Shimodaira-Hasegawa tree selection. In general, the SBS seems to be excessively conservative and is much slower than our approximate likelihood-based methods.},
+  Comment                  = {Survey of different branch support show that SH-aLRT, Standard Bootstrap (SBS), Rapid Bootstrap (RBS) are conservative and robust (wrt to model misspecification) method whereas aBayes and PP are more powerful (do not underestimate true branch support). None of the branch support has a probabilistic interpretation (except PP when both the model and the priors are correct). With moderate model violations, all methods are sufficlently powerful and accurate (with better power for aLRT and aBayes). With severe model violations, aBayes, PP and aLRT produce high rates of False Positive (strongly supported incorrect branches). In such case, SH-aLRT is recommended. In all cases, SBS is slow and overly conservative.},
+  Doi                      = {10.1093/sysbio/syr041},
+  File                     = {Anisimova2011.pdf:Phylogeny - Methods/Anisimova2011.pdf:PDF;:Phylogeny - Methods/Anisimova2011S1.pdf:PDF;:Phylogeny - Methods/Anisimova2011S2.pdf:PDF;:Phylogeny - Methods/Anisimova2011S3.pdf:PDF;:Phylogeny - Methods/Anisimova2011S4.docx:Word},
+  Institution              = {Department of Computer Science, Swiss Federal Institute of Technology (ETH), Zürich, Switzerland. maria.anisimova@inf.ethz.ch},
+  Keywords                 = {Amino Acids, genetics; Animals; Bayes Theorem; Classification, methods; Computer Simulation; Likelihood Functions; Models, Genetic; Models, Statistical; Orchidaceae, genetics; Phylogeny; Statistics, Nonparametric},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {mahendra},
+  Pii                      = {syr041},
+  Pmid                     = {21540409},
+  Timestamp                = {2012.01.31},
+  Url                      = {http://dx.doi.org/10.1093/sysbio/syr041}
+}
+
 @Article{Bar-Hen2008,
   Title                    = {Influence function for robust phylogenetic reconstructions.},
   Author                   = {Avner Bar-Hen and Mahendra Mariadassou and Marie-Anne Poursat and Philippe Vandenkoornhuyse},
@@ -25,6 +51,22 @@
   Url                      = {http://dx.doi.org/10.1093/molbev/msn030}
 }
 
+@Article{Billera2001,
+  Title                    = {Geometry of the Space of Phylogenetic Trees},
+  Author                   = {Louis J. Billera and Susan P. Holmes and Karen Vogtmann},
+  Journal                  = {Advances in Applied Math.},
+  Year                     = {2001},
+  Pages                    = {733--767},
+  Volume                   = {27},
+
+  Citeseercitationcount    = {0},
+  Citeseerurl              = {http://citeseer.ist.psu.edu/410034.html},
+  File                     = {Billera2001.pdf:Biblio2/Phylogenie/Billera2001.pdf:PDF;Billera2001.pdf:Biblio/Phylogenie/Billera2001.pdf:PDF},
+  Owner                    = {mahendra},
+  Timestamp                = {2008.05.16},
+  Url                      = {http://www.math.cornell.edu/~billera/papers/treespace.pdf}
+}
+
 @Article{Bordewich2008,
   Title                    = {Selecting taxa to save or sequence: desirable criteria and a greedy solution.},
   Author                   = {Magnus Bordewich and Allen G Rodrigo and Charles Semple},
@@ -46,6 +88,26 @@
   Pmid                     = {19085326},
   Timestamp                = {2009.07.08},
   Url                      = {http://dx.doi.org/10.1080/10635150802552831}
+}
+
+@Article{Efron1996,
+  Title                    = {Bootstrap confidence levels for phylogenetic trees.},
+  Author                   = {B. Efron and E. Halloran and S. Holmes},
+  Journal                  = {Proc Natl Acad Sci U S A},
+  Year                     = {1996},
+
+  Month                    = {Jul},
+  Number                   = {14},
+  Pages                    = {7085--7090},
+  Volume                   = {93},
+
+  Abstract                 = {Evolutionary trees are often estimated from DNA or RNA sequence data. How much confidence should we have in the estimated trees? In 1985, Felsenstein [Felsenstein, J. (1985) Evolution 39, 783-791] suggested the use of the bootstrap to answer this question. Felsenstein's method, which in concept is a straightforward application of the bootstrap, is widely used, but has been criticized as biased in the genetics literature. This paper concerns the use of the bootstrap in the tree problem. We show that Felsenstein's method is not biased, but that it can be corrected to better agree with standard ideas of confidence levels and hypothesis testing. These corrections can be made by using the more elaborate bootstrap method presented here, at the expense of considerably more computation.},
+  File                     = {D\:\\Thesis\\Biblio\\Phylogenie\\Efron96.pdf:D\:\\Thesis\\Biblio\\Phylogenie\\Efron96.pdf:PDF},
+  Keywords                 = {Algorithms; Animals; Base Sequence; Birds; Confidence Intervals; Haplorhini; Humans; Malaria; Mathematics; Models, Genetic; Molecular Sequence Data; Pan troglodytes; Phylogeny; Plasmodium; Rodentia; Sequence Homology, Nucleic Acid},
+  Owner                    = {mariadas},
+  Pmid                     = {8692949},
+  Timestamp                = {2007.06.18},
+  Url                      = {http://www.pnas.org/cgi/content/full/93/23/13429}
 }
 
 @Article{Eisen1998,
@@ -81,6 +143,42 @@
   Timestamp                = {2007.06.18}
 }
 
+@Article{Felsenstein1985,
+  Title                    = {Confidence Limits on Phylogenies: An Approach Using the Bootstrap},
+  Author                   = {J.~Felsenstein},
+  Journal                  = {Evolution},
+  Year                     = {1985},
+
+  Month                    = {July},
+  Number                   = {4},
+  Pages                    = {783--791},
+  Volume                   = {39},
+
+  Abstract                 = {The recently-developed statistical method known as the "bootstrap" can be used to place confidence intervals on phylogenies. It involves resampling points from one's own data, with replacement, to create a series of bootstrap samples of the same size as the original data. Each of these is analyzed, and the variation among the resulting estimates taken to indicate the size of the error involved in making estimates from the original data. In the case of phylogenies, it is argued that the proper method of resampling is to keep all of the original species while sampling characters with replacement, under the assumption that the characters have been independently drawn by the systematist and have evolved independently. Majority-rule consensus trees can be used to construct a phylogeny showing all of the inferred monophyletic groups that occurred in a majority of the bootstrap samples. If a group shows up 95% of the time or more, the evidence for it is taken to be statistically significant. Existing computer programs can be used to analyze different bootstrap samples by using weights on the characters, the weight of a character being how many times it was drawn in bootstrap sampling. When all characters are perfectly compatible, as envisioned by Hennig, bootstrap sampling becomes unnecessary; the bootstrap method would show significant evidence for a group if it is defined by three or more characters.},
+  Doi                      = {10.2307/2408678},
+  Keywords                 = {bootstrap, confidence limit},
+  Owner                    = {mariadas},
+  Timestamp                = {2007.06.18},
+  Url                      = {http://links.jstor.org/sici?sici=0014-3820(198507)39:4%3C783:CLOPAA%3E2.0.CO;2-L}
+}
+
+@Article{Felsenstein1993,
+  Title                    = {Is There Something Wrong with the Bootstrap on Phylogenies? A Reply to Hillis and Bull},
+  Author                   = {J.~Felsenstein and H.~Kishino},
+  Journal                  = {Systematic Biology},
+  Year                     = {1993},
+
+  Month                    = {June},
+  Number                   = {2},
+  Pages                    = {193--200},
+  Volume                   = {42},
+
+  Doi                      = {10.2307/2992541},
+  Owner                    = {mariadas},
+  Timestamp                = {2007.06.18},
+  Url                      = {http://links.jstor.org/sici?sici=1063-5157(199306)42%3A2%3C193%3AITSWWT%3E2.0.CO%3B2-Y}
+}
+
 @Book{Gascuel2005a,
   Title                    = {Mathematics of evolution and phylogeny},
   Author                   = {O.~Gascuel},
@@ -113,6 +211,51 @@
   Pmid                     = {14530136},
   Timestamp                = {2008.05.28},
   Url                      = {http://www.informaworld.com/smpp/ftinterface~content=a713850337~fulltext=713240930}
+}
+
+@Article{Hillis1993,
+  Title                    = {An empirical test of bootstrapping as a method for assessing confidence in phylogenetic analysis},
+  Author                   = {David M. Hillis and James J. Bull},
+  Journal                  = {Systematic Biology},
+  Year                     = {1993},
+
+  Month                    = {June},
+  Number                   = {2},
+  Pages                    = {182--192},
+  Volume                   = {42},
+
+  Abstract                 = {Bootstrapping is a common method for assessing confidence in phylogenetic analyses. Although bootstrapping was first applied in phylogenetics to assess the repeatability of a given result, bootstrap results are commonly interpreted as a measure of the probability that a phylogenetic estimate represents the true phylogeny. Here we use computer simulations and a laboratory-generated phylogeny to test bootstrapping results of parsimony analyses, both as measures of repeatability (i.e., the probability of repeating a result given a new sample of characters) and accuracy (i.e., the probability that a result represents the true phylogeny). Our results indicate that any given bootstrap proportion provides an unbiased but highly imprecise measure of repeatability, unless the actual probability of replicating the relevant result is nearly one. The imprecision of the estimate is great enough to render the estimate virtually useless as a measure of repeatability. Under conditions thought to be typical of most phylogenetic analyses, however, bootstrap proportions in majority-rule consensus trees provide biased but highly conservative estimates of the probability of correctly inferring the corresponding clades. Specifically, under conditions of equal rates of change, symmetric phylogenies, and internodal change of $\leq$20% of the characters, bootstrap proportions of $\geq$70% usually correspond to a probability of $\geq$95% that the corresponding clade is real. However, under conditions of very high rates of internodal change (approaching randomization of the characters among taxa) or highly unequal rates of change among taxa, bootstrap proportions >50% are overestimates of accuracy.},
+  Doi                      = {10.2307/2992540},
+  File                     = {Hillis1993.pdf:Hillis1993.pdf:PDF;C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Hillis93.pdf:C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Hillis93.pdf:PDF},
+  Keywords                 = {Bootstrapping, accuracy, repeatability, phylogeny, parsimony, precision, statistical analyses, simulations},
+  Owner                    = {mariadas},
+  Review                   = {Use of a single bootstrap proportion as a measure of repeatability is therefore unreliable in this case, the relationship between bootstrap proportions and probability of the corresponding clade being correct is puzzling. Bootstrap provides a biased but highly conservative estimate of accuracy. If one is interested in the probability that a recovered group represents a true clade, then at least the following variables should be taken into account: number of characters, number of taxas, number of bootstrap iterations, rate of change, tree topology, position of the group of interest, variance of rates among lineages, independence of characters, method of phylogenetic inference.},
+  Timestamp                = {2007.08.16}
+}
+
+@Article{Kumar2012,
+  Title                    = {Statistics and truth in phylogenomics.},
+  Author                   = {Sudhir Kumar and Alan J Filipski and Fabia U Battistuzzi and Sergei L Kosakovsky Pond and Koichiro Tamura},
+  Journal                  = {Mol Biol Evol},
+  Year                     = {2012},
+
+  Month                    = {Feb},
+  Number                   = {2},
+  Pages                    = {457--472},
+  Volume                   = {29},
+
+  Abstract                 = {Phylogenomics refers to the inference of historical relationships among species using genome-scale sequence data and to the use of phylogenetic analysis to infer protein function in multigene families. With rapidly decreasing sequencing costs, phylogenomics is becoming synonymous with evolutionary analysis of genome-scale and taxonomically densely sampled data sets. In phylogenetic inference applications, this translates into very large data sets that yield evolutionary and functional inferences with extremely small variances and high statistical confidence (P value). However, reports of highly significant P values are increasing even for contrasting phylogenetic hypotheses depending on the evolutionary model and inference method used, making it difficult to establish true relationships. We argue that the assessment of the robustness of results to biological factors, that may systematically mislead (bias) the outcomes of statistical estimation, will be a key to avoiding incorrect phylogenomic inferences. In fact, there is a need for increased emphasis on the magnitude of differences (effect sizes) in addition to the P values of the statistical test of the null hypothesis. On the other hand, the amount of sequence data available will likely always remain inadequate for some phylogenomic applications, for example, those involving episodic positive selection at individual codon positions and in specific lineages. Again, a focus on effect size and biological relevance, rather than the P value, may be warranted. Here, we present a theoretical overview and discuss practical aspects of the interplay between effect sizes, bias, and P values as it relates to the statistical inference of evolutionary truth in phylogenomics.},
+  Comment                  = {On the different problems associated with the use of phylogenomics for several purposes. Reconstruction of species tree from phylogenomics data is hampered by the relative contribution of bias and variance (bias does not decrease with sample size while variance does, leading to very low p-values mainly driven by mismodelling). Furthermore, the use of phylogenomics in selection detection studies is limited by the availability of genomic data. Reconstruction is also limited for microbes where HGT accounts for a subsantial part of the genome and as few as 50 genes could contribute to the core genome of a species.},
+  Doi                      = {10.1093/molbev/msr202},
+  File                     = {Kumar2012.pdf:Phylogeny - Methods/Kumar2012.pdf:PDF},
+  Institution              = {Center for Evolutionary Medicine and Informatics, Biodesign Institute, Arizona State University, Arizona, USA. s.kumar@asu.edu},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {mahendra},
+  Pii                      = {msr202},
+  Pmid                     = {21873298},
+  Timestamp                = {2012.04.03},
+  Url                      = {http://dx.doi.org/10.1093/molbev/msr202}
 }
 
 @Article{Lartillot2011,
@@ -165,6 +308,30 @@
   Url                      = {http://dx.doi.org/10.1111/nyas.12157}
 }
 
+@Article{Philippe2011,
+  Title                    = {Resolving difficult phylogenetic questions: why more sequences are not enough.},
+  Author                   = {Hervé Philippe and Henner Brinkmann and Dennis V Lavrov and D. Timothy J Littlewood and Michael Manuel and Gert Wörheide and Denis Baurain},
+  Journal                  = {PLoS Biol},
+  Year                     = {2011},
+
+  Month                    = {Mar},
+  Number                   = {3},
+  Pages                    = {e1000602},
+  Volume                   = {9},
+
+  Comment                  = {Problem encountered by high profiles phylogenomic studies. People should correct for alignment errror/orthology errors and incorrect reconstruction of multiple errors. Moreover, they should use adequate evolution (such as CAT or its derivative that handle better homoplasies). Highlights some data quality checks for phylogenomics data.},
+  Doi                      = {10.1371/journal.pbio.1000602},
+  File                     = {Philippe2011.pdf:Phylogeny - Methods/Philippe2011.pdf:PDF;:Phylogeny - Methods/Philippe2011S19.doc:Word},
+  Institution              = {Département de Biochimie, Centre Robert-Cedergren, Université de Montréal, Montréal, Québec, Canada. herve.philippe@umontreal.ca},
+  Keywords                 = {Animals; Base Sequence; Biological Evolution; Databases, Factual; Genomics, methods; Molecular Sequence Data; Phylogeny; Sequence Alignment},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {mahendra},
+  Pmid                     = {21423652},
+  Timestamp                = {2013.02.06},
+  Url                      = {http://dx.doi.org/10.1371/journal.pbio.1000602}
+}
+
 @Article{Price2010,
   Title                    = {FastTree 2--approximately maximum-likelihood trees for large alignments.},
   Author                   = {Morgan N Price and Paramvir S Dehal and Adam P Arkin},
@@ -209,6 +376,29 @@
   Url                      = {http://dx.doi.org/10.1080/10635150802302427}
 }
 
+@Article{Rokas2003,
+  Title                    = {Genome-scale approaches to resolving incongruence in molecular phylogenies.},
+  Author                   = {Antonis Rokas and Barry L Williams and Nicole King and Sean B Carroll},
+  Journal                  = {Nature},
+  Year                     = {2003},
+
+  Month                    = {Oct},
+  Number                   = {6960},
+  Pages                    = {798--804},
+  Volume                   = {425},
+
+  Abstract                 = {One of the most pervasive challenges in molecular phylogenetics is the incongruence between phylogenies obtained using different data sets, such as individual genes. To systematically investigate the degree of incongruence, and potential methods for resolving it, we screened the genome sequences of eight yeast species and selected 106 widely distributed orthologous genes for phylogenetic analyses, singly and by concatenation. Our results suggest that data sets consisting of single or a small number of concatenated genes have a significant probability of supporting conflicting topologies. By contrast, analyses of the entire data set of concatenated genes yielded a single, fully resolved species tree with maximum support. Comparable results were obtained with a concatenation of a minimum of 20 genes; substantially more genes than commonly used but a small fraction of any genome. These results have important implications for resolving branches of the tree of life.},
+  Doi                      = {10.1038/nature02053},
+  File                     = {Rokas2003.pdf:Rokas2003.pdf:PDF},
+  Institution              = {Howard Hughes Medical Institute, Laboratory of Molecular Biology, R. M. Bock Laboratories, University of Wisconsin-Madison, 1525 Linden Drive, Madison, Wisconsin 53706, USA.},
+  Keywords                 = {Genes, Fungal; Genome, Fungal; Genomics; Phylogeny; Regression Analysis; Reproducibility of Results; Saccharomyces},
+  Owner                    = {mahendra},
+  Pii                      = {nature02053},
+  Pmid                     = {14574403},
+  Timestamp                = {2008.05.22},
+  Url                      = {http://dx.doi.org/10.1038/nature02053}
+}
+
 @Article{Ronquist2003,
   Title                    = {MrBayes 3: Bayesian phylogenetic inference under mixed models.},
   Author                   = {Fredrik Ronquist and John P Huelsenbeck},
@@ -251,5 +441,108 @@
   Pmid                     = {16928733},
   Timestamp                = {2008.05.29},
   Url                      = {http://dx.doi.org/10.1093/bioinformatics/btl446}
+}
+
+@Article{Susko2010,
+  Title                    = {First-Order Correct Bootstrap Support Adjustments for Splits That Allow Hypothesis Testing When Using Maximum Likelihood Estimation.},
+  Author                   = {Edward Susko},
+  Journal                  = {Mol Biol Evol},
+  Year                     = {2010},
+
+  Month                    = {Feb},
+
+  Abstract                 = {The most frequent measure of phylogenetic uncertainty for splits is bootstrap support. While large bootstrap support intuitively suggests that a split in a tree is well supported it has not been clear how large bootstrap support needs to be to conclude there is significant evidence that a hypothesized split is present. Indeed, recent work has shown that bootstrap support is not first-order correct and thus cannot be directly used for hypothesis testing. We present methods that adjust bootstrap support values in a maximum likelihood setting so that they have an interpretation corresponding to p-values in conventional hypothesis testing; for instance, adjusted bootstrap support larger than 95\% occurs only 5\% of the time if the split is not present. Through examples and simulation settings it is found that adjustments always increase the level of support. We also find that the nature of the adjustment is fairly constant across parameter settings. Finally, we consider adjustments that take into account the data-dependent nature of many hypotheses about splits: the hypothesis that they are present is being tested because they are in the tree estimated through maximum likelihood. Here, in contrast, we find that BP often needs be adjusted downwards.},
+  Doi                      = {10.1093/molbev/msq048},
+  File                     = {Susko2010.pdf:Susko2010.pdf:PDF},
+  Institution              = {Department of Mathematics and Statistics, Dalhousie University, Halifax, Nova Scotia.},
+  Owner                    = {mahendra},
+  Pii                      = {msq048},
+  Pmid                     = {20154180},
+  Timestamp                = {2010.04.23},
+  Url                      = {http://dx.doi.org/10.1093/molbev/msq048}
+}
+
+@Article{Susko2008,
+  Title                    = {On the distributions of bootstrap support and posterior distributions for a star tree.},
+  Author                   = {Edward Susko},
+  Journal                  = {Syst Biol},
+  Year                     = {2008},
+
+  Month                    = {Aug},
+  Number                   = {4},
+  Pages                    = {602--612},
+  Volume                   = {57},
+
+  Abstract                 = {Several authors have recently noted that when data are generated from a star topology, posterior probabilities can often be very large, even with arbitrarily large sequence lengths. This is counter to intuition, which suggests convergence to the limit of equal probability for each topology. Here the limiting distributions of bootstrap support and posterior probabilities are obtained for a four-taxon star tree. Theoretical results are given, providing confirmation that this counterintuitive phenomenon holds for both posterior probabilities and bootstrap support. For large samples the limiting results for posterior probabilities are the same regardless of the prior. With equal-length terminal edges, the limiting distribution is similar but not the same across different choices for the lengths of the edges. In contrast to previous results, the case of unequal lengths of terminal edges is considered. With two long edges, the posterior probability of the tree with long edges together tends to be much larger. Using the neighbor-joining algorithm, with equal edge lengths, the distribution of bootstrap support tends to be qualitatively comparable to posterior probabilities. As with posterior probabilities, when two of the edges are long, bootstrap support for the tree with long branches together tends to be large. The bias is less pronounced, however, as the distribution of bootstrap support gets close to uniform for this tree, whereas posterior probabilities are much more likely to be large. Our findings for maximum likelihood estimation are based entirely on simulation and in contrast suggest that bootstrap support tends to be fairly constant across edge-length choices.},
+  Comment                  = {Distribution of BPP and BP for an unrooted four taxon tree. When the branch lengthes are equal, Laplace approximation used near the real value of the parameter allows to compute the exact distribution of the BPP. The limiting distribution has a limited variance so that the BPP has a >0 proba of being arbitrarily large. The same for the the limiting BP when using NJ. When the branch lengthes are not equal, BPP and BP gives significantly different results: BPP are skewed towards small values on the topo with long branches apart whereas BP are uniform. For the tree with long branches together, the result are comparable to same branch lengthes situation.},
+  Doi                      = {10.1080/10635150802302468},
+  File                     = {Susko2008.pdf:Susko2008.pdf:PDF},
+  Institution              = {Department of Mathematics and Statistics, Dalhousie University, Halifax, Nova Scotia, Canada.},
+  Owner                    = {mahendra},
+  Pii                      = {901677716},
+  Pmid                     = {18709598},
+  Timestamp                = {2008.08.26},
+  Url                      = {http://dx.doi.org/10.1080/10635150802302468}
+}
+
+@Article{Yang2007,
+  Title                    = {Fair-balance paradox, star-tree paradox, and Bayesian phylogenetics.},
+  Author                   = {Ziheng Yang},
+  Journal                  = {Mol Biol Evol},
+  Year                     = {2007},
+
+  Month                    = {Aug},
+  Number                   = {8},
+  Pages                    = {1639--1655},
+  Volume                   = {24},
+
+  Abstract                 = {The star-tree paradox refers to the conjecture that the posterior probabilities for the three unrooted trees for four species (or the three rooted trees for three species if the molecular clock is assumed) do not approach 1/3 when the data are generated using the star tree and when the amount of data approaches infinity. It reflects the more general phenomenon of high and presumably spurious posterior probabilities for trees or clades produced by the Bayesian method of phylogenetic reconstruction, and it is perceived to be a manifestation of the deeper problem of the extreme sensitivity of Bayesian model selection to the prior on parameters. Analysis of the star-tree paradox has been hampered by the intractability of the integrals involved. In this article, I use Laplacian expansion to approximate the posterior probabilities for the three rooted trees for three species using binary characters evolving at a constant rate. The approximation enables calculation of posterior tree probabilities for arbitrarily large data sets. Both theoretical analysis of the analogous fair-coin and fair-balance problems and computer simulation for the tree problem confirmed the existence of the star-tree paradox. When the data size n --> infinity, the posterior tree probabilities do not converge to 1/3 each, but they vary among data sets according to a statistical distribution. This distribution is characterized. Two strategies for resolving the star-tree paradox are explored: (1) a nonzero prior probability for the degenerate star tree and (2) an increasingly informative prior forcing the internal branch length toward zero. Both appear to be effective in resolving the paradox, but the latter is simpler to implement. The posterior tree probabilities are found to be very sensitive to the prior.},
+  Doi                      = {10.1093/molbev/msm081},
+  File                     = {Yang2007.pdf:Yang2007.pdf:PDF;C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Yang2007.pdf:C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Yang2007.pdf:PDF},
+  Owner                    = {Mahendra},
+  Pii                      = {msm081},
+  Pmid                     = {17488737},
+  Timestamp                = {2007.10.30},
+  Url                      = {http://dx.doi.org/10.1093/molbev/msm081}
+}
+
+@Article{Yang1997a,
+  Title                    = {Bayesian phylogenetic inference using DNA sequences: a Markov Chain Monte Carlo Method.},
+  Author                   = {Z. Yang and B. Rannala},
+  Journal                  = {Mol Biol Evol},
+  Year                     = {1997},
+
+  Month                    = {Jul},
+  Number                   = {7},
+  Pages                    = {717--724},
+  Volume                   = {14},
+
+  Abstract                 = {An improved Bayesian method is presented for estimating phylogenetic trees using DNA sequence data. The birth-death process with species sampling is used to specify the prior distribution of phylogenies and ancestral speciation times, and the posterior probabilities of phylogenies are used to estimate the maximum posterior probability (MAP) tree. Monte Carlo integration is used to integrate over the ancestral speciation times for particular trees. A Markov Chain Monte Carlo method is used to generate the set of trees with the highest posterior probabilities. Methods are described for an empirical Bayesian analysis, in which estimates of the speciation and extinction rates are used in calculating the posterior probabilities, and a hierarchical Bayesian analysis, in which these parameters are removed from the model by an additional integration. The Markov Chain Monte Carlo method avoids the requirement of our earlier method for calculating MAP trees to sum over all possible topologies (which limited the number of taxa in an analysis to about five). The methods are applied to analyze DNA sequences for nine species of primates, and the MAP tree, which is identical to a maximum-likelihood estimate of topology, has a probability of approximately 95\%.},
+  File                     = {C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Yang1997a.pdf:C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Yang1997a.pdf:PDF},
+  Keywords                 = {Algorithms; Animals; Bayes Theorem; DNA, Mitochondrial; Monte Carlo Method; Phylogeny; Primates; Sequence Analysis},
+  Owner                    = {Mahendra},
+  Pmid                     = {9214744},
+  Timestamp                = {2007.10.18},
+  Url                      = {http://mbe.oxfordjournals.org/cgi/reprint/14/7/717}
+}
+
+@Article{Zharkikh1992,
+  Title                    = {Statistical properties of bootstrap estimation of phylogenetic variability from nucleotide sequences. I. Four taxa with a molecular clock.},
+  Author                   = {A. Zharkikh and W. H. Li},
+  Journal                  = {Mol Biol Evol},
+  Year                     = {1992},
+
+  Month                    = {Nov},
+  Number                   = {6},
+  Pages                    = {1119--1147},
+  Volume                   = {9},
+
+  Abstract                 = {The statistical properties of sample estimation and bootstrap estimation of phylogenetic variability from a sample of nucleotide sequences are studied by using model trees of three taxa with an outgroup and by assuming a constant rate of nucleotide substitution. The maximum-parsimony method of tree reconstruction is used. An analytic formula is derived for estimating the sequence length that is required if P, the probability of obtaining the true tree from the sampled sequences, is to be equal to or higher than a given value. Bootstrap estimation is formulated as a two-step sampling procedure: (1) sampling of sequences from the evolutionary process and (2) resampling of the original sequence sample. The probability that a bootstrap resampling of an original sequence sample will support the true tree is found to depend on the model tree, the sequence length, and the probability that a randomly chosen nucleotide site is an informative site. When a trifurcating tree is used as the model tree, the probability that one of the three bifurcating trees will appear in > or = 95\% of the bootstrap replicates is < 5\%, even if the number of bootstrap replicates is only 50; therefore, the probability of accepting an erroneous tree as the true tree is < 5\% if that tree appears in > or = 95\% of the bootstrap replicates and if more than 50 bootstrap replications are conducted. However, if a particular bifurcating tree is observed in, say, < 75\% of the bootstrap replicates, then it cannot be claimed to be better than the trifurcating tree even if > or = 1,000 bootstrap replications are conducted. When a bifurcating tree is used as the model tree, the bootstrap approach tends to overestimate P when the sequences are very short, but it tends to underestimate that probability when the sequences are long. Moreover, simulation results show that, if a tree is accepted as the true tree only if it has appeared in > or = 95\% of the bootstrap replicates, then the probability of failing to accept any bifurcating tree can be as large as 58\% even when P = 95\%, i.e., even when 95\% of the samples from the evolutionary process will support the true tree. Thus, if the rate-constancy assumption holds, bootstrapping is a conservative approach for estimating the reliability of an inferred phylogeny for four taxa.},
+  File                     = {C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Zharkikh1992.pdf:C\:\\Users\\Mahendra\\Documents\\Thesis\\Biblio\\Phylogenie\\Zharkikh1992.pdf:PDF},
+  Keywords                 = {Phylogeny; Sequence Analysis; Sequence Analysis, DNA},
+  Owner                    = {Mahendra},
+  Pmid                     = {1435238},
+  Timestamp                = {2007.10.25},
+  Url                      = {http://mbe.oxfordjournals.org/cgi/reprint/9/6/1119}
 }
 

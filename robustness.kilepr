@@ -56,10 +56,10 @@ order=2
 
 [item:Motivation.tex]
 archive=true
-column=0
+column=336
 encoding=UTF-8
 highlight=LaTeX
-line=31
+line=34
 mode=LaTeX
 open=true
 order=3
@@ -101,10 +101,10 @@ JumpList=
 ViMarks=.,21,16,[,21,0,],21,16
 
 [view-settings,view=0,item:Motivation.tex]
-CursorColumn=0
-CursorLine=31
+CursorColumn=336
+CursorLine=34
 JumpList=
-ViMarks=.,30,182,[,30,174,],30,182
+ViMarks=.,34,335,[,34,295,],34,335
 
 [view-settings,view=0,item:Robustness.tex]
 CursorColumn=0
