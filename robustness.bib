@@ -2,6 +2,32 @@
 % Encoding: UTF8
 
 
+@Article{Anisimova2006,
+  Title                    = {Approximate likelihood-ratio test for branches: A fast, accurate, and powerful alternative.},
+  Author                   = {Maria Anisimova and Olivier Gascuel},
+  Journal                  = {Syst Biol},
+  Year                     = {2006},
+
+  Month                    = {Aug},
+  Number                   = {4},
+  Pages                    = {539--552},
+  Volume                   = {55},
+
+  Abstract                 = {We revisit statistical tests for branches of evolutionary trees reconstructed upon molecular data. A new, fast, approximate likelihood-ratio test (aLRT) for branches is presented here as a competitive alternative to nonparametric bootstrap and Bayesian estimation of branch support. The aLRT is based on the idea of the conventional LRT, with the null hypothesis corresponding to the assumption that the inferred branch has length 0. We show that the LRT statistic is asymptotically distributed as a maximum of three random variables drawn from the chi(0)2 + chi(1)2 distribution. The new aLRT of interior branch uses this distribution for significance testing, but the test statistic is approximated in a slightly conservative but practical way as 2(l1- l2), i.e., double the difference between the maximum log-likelihood values corresponding to the best tree and the second best topological arrangement around the branch of interest. Such a test is fast because the log-likelihood value l2 is computed by optimizing only over the branch of interest and the four adjacent branches, whereas other parameters are fixed at their optimal values corresponding to the best ML tree. The performance of the new test was studied on simulated 4-, 12-, and 100-taxon data sets with sequences of different lengths. The aLRT is shown to be accurate, powerful, and robust to certain violations of model assumptions. The aLRT is implemented within the algorithm used by the recent fast maximum likelihood tree estimation program PHYML (Guindon and Gascuel, 2003).},
+  Comment                  = {Very nice paper about aLRT. LRT for branches tests all alternatives topologies (around a branch) against a null hypothesis (the branch has length 0) and looks at 2(l1 - l0) (twice the max difference of the three resolutions of the central branch). aLRT replaces l1-l0 by l1 - l2 (difference between best and second best) and so cannot be statistically significant for all three topologies against the null topology. aLRT has accurate power and resistance to model misspecification (as long as at least HKY+G is used). Better than bootstrap and PP in terms of level and power but no so good for probability of inferred tree to be correct against cut-off probabilty (as opposed to PP which are nearly perfect in the absence of model violation).},
+  Doi                      = {10.1080/10635150600755453},
+  File                     = {Anisimova2006.pdf:Phylogeny - Methods/Anisimova2006.pdf:PDF},
+  Institution              = {Equipe MÃ©thodes et Algorithmes pour la Bioinformatique LIRMM-CNRS, UniversitÃ© Montpellier II, Montpellier 34392, France. manisimova@hotmail.com},
+  Keywords                 = {Classification, methods; Computer Simulation; Likelihood Functions; Models, Statistical; Phylogeny},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {mmariadasso},
+  Pii                      = {T808388N86673K61},
+  Pmid                     = {16785212},
+  Timestamp                = {2010.10.08},
+  Url                      = {http://dx.doi.org/10.1080/10635150600755453}
+}
+
 @Article{Anisimova2011,
   Title                    = {Survey of branch support methods demonstrates accuracy, power, and robustness of fast likelihood-based approximation schemes.},
   Author                   = {Maria Anisimova and Manuel Gil and Jean-François Dufayard and Christophe Dessimoz and Olivier Gascuel},
@@ -418,6 +444,36 @@
   Pmid                     = {12912839},
   Timestamp                = {2008.05.30},
   Url                      = {http://bioinformatics.oxfordjournals.org/cgi/reprint/19/12/1572}
+}
+
+@Article{Shimodaira1999,
+  Title                    = {Multiple Comparisons of Log-Likelihoods with Applications to Phylogenetic Inference},
+  Author                   = {H. Shimodaira and M. Hasegawa},
+  Journal                  = {Mol. Biol. Evol},
+  Year                     = {1999},
+  Number                   = {8},
+  Pages                    = {1114--1116},
+  Volume                   = {16},
+
+  Annote                   = {Fouding paper by Shimodaira and Hasegawa to test more than two phylogenies at the same time and, when assessing the confidence interval of the ML tree to take the variabilty of the inference into account in the likelihood test. Describes a bootstrap procedure to do so.},
+  Owner                    = {mmariadasso},
+  Timestamp                = {2017.08.11}
+}
+
+@Article{Stamatakis2014,
+  Title                    = {RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies},
+  Author                   = {Stamatakis, Alexandros},
+  Journal                  = {Bioinformatics},
+  Year                     = {2014},
+  Number                   = {9},
+  Pages                    = {1312-1313},
+  Volume                   = {30},
+
+  Doi                      = {10.1093/bioinformatics/btu033},
+  Eprint                   = {/oup/backfile/content_public/journal/bioinformatics/30/9/10.1093_bioinformatics_btu033/3/btu033.pdf},
+  Owner                    = {mmariadasso},
+  Timestamp                = {2017.08.11},
+  Url                      = { + http://dx.doi.org/10.1093/bioinformatics/btu033}
 }
 
 @Article{Stamatakis2006,

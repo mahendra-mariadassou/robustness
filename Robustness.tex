@@ -115,21 +115,43 @@ Intuitively, the variation obtained by resampling $n$ sites from the original da
 
 $BP$ provides a guide for the amount of support a branch has: branches with high $BP$ occur more often and are more reliable than those with low $BP$. Although it might be tempting to interpret $BP$ as the probability that a branch is present in the (unknown) true tree, this is not the case in general. \cite{Zharkikh1992} showed in a simple case that $BP$ is biased and underestimates that probability. Using simulation studies, \cite{Hillis1993} showed that $BP$ values as small as 70\% could reflect highly supported branches. Many studies~\citep{Felsenstein1993, Efron1996, Susko2008, Susko2010} examined the theoretical properties of bootstrap values and concluded that they are indeed biased. This bias is partly induced by the peculiar geometry of tree space (see \cite{Billera2001, Susko2010} and Section~\ref{sec:extensions}). 
 
-The final limitation of bootstrap values, shared with other support values based on resampling techniques, is that they are quite computationally expensive to compute: the computational budget required to compute $B$ bootstrap trees is roughly $B$-fold higher than the time required to compute the original tree, although clever tricks can reduce significantly~\citep{Stamatakis2006}.
+The final limitation of bootstrap values, shared with other support values based on resampling techniques, is that they are quite computationally expensive to compute: the budget required to compute $B$ bootstrap trees is $B$-fold higher than the one required to compute the original tree. Clever implementations can substantially reduce that cost~\citep{Stamatakis2014} but it remains prohibitive for very large trees. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Posterior Probabilities} \label{sec:posterior-probabilities}
 
-Posterior Probabilities ($PP$) are mostly used in a Bayesian framework and similar in spirit bootstrap values. The main difference lies in the forest of trees used to compute support values. Bayesian procedures estimate the posterior distribution of trees. Due to the huge size of the tree space, Markov Chain Markov Chains (MCMC) are used in practice to produce a sample from this distribution~\citep{Yang1997a}. The $PP$ of a branch is computed, just like $BP$, as the the probability of occurence of that branch in the MCMC sample. MCMC trees constitute a set of highly likely trees (best, second best, etc) for the original dataset. $PP$ are easier to interpret than $BP$ as they approximate directly the probability that a branch is present in the true tree, given the original data. Furthermore, since MCMC trees are a natural byproduct of the estimation procedure, there is almost no overhead in computing $PP$. 
+Posterior Probabilities ($PP$) are mostly used in a Bayesian framework and similar in spirit bootstrap values. The main difference lies in the forest of trees used to compute support values. Bayesian procedures estimate the posterior distribution of trees. In pratice, the distribution is too complex to fully explore and software produce a Markov Chain Markov Chains (MCMC) sample the posterior distribution~\citep{Yang1997a}. The $PP$ of a branch is computed, just like $BP$, as the the probability of occurence of that branch in the MCMC sample. MCMC trees constitute a set of highly likely trees (best, second best, etc) for the original dataset. $PP$ are easier to interpret than $BP$ as they approximate directly the probability that a branch is present in the true tree, given the original data. Furthermore, since MCMC trees are a natural byproduct of the estimation procedure, there is almost no overhead in computing $PP$. 
 
 Unfortunately, $PP$ are not immune to bias. Empirical studies found that $PP$ are generally higher than $BP$~\citep{Anisimova2011} and sometimes even overconfident. The ``star-tree paradox'' \citep{Yang2007} is the most extreme example of spurrious support. \citet{Yang2007} showed that when the actual tree is a 3 species star-like, with no real inner branch, and that sequence length goes to $\infty$, one branch randomly chosen among the 3 potential but erroneous inner branches, has its $PP$ that goes to $100$\% whereas one would expect all potential branches to have $PP$ around $33$\%. 
 
 Intuitively, $PP$ are higher than $BP$ because they cover fewer sources of variability. Unlike bootstrap trees, MCMC trees all originate from the same dataset. $PP$ are quite good at capturing the lack of phylogenetic signal in the original MSA but not the impact of a few influential characters. For example, outlier characters with a strong effect on tree inference will affect all MCMC trees consistently. By contrast, they will be included in some replciates but left out from others leading to more variation among bootstrap trees than among MCMC trees. Finally, in genome-scale context where inaccuracies are more likely to arise from modeling errors than from sampling variability, $PP$ are uniformly high and as uninformative as $BP$~\citep{Philippe2011, Kumar2012}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Others} \label{sec:other-confidence}
+\subsubsection{Likelihood-based Support Values} \label{sec:other-confidence}
 
-aLRT, SH, etc for each node
+Both $BP$ and $PP$ quantify the agreement between a focal tree and forest of trees. Likelihood-based supports are fast alternatives that bypass the forest and deal exclusively with the focal tree~\citep{Anisimova2006}. 
+
+For any inner branch, there are NNI configurations around that branch: the focal one $T_1$ and two alternatives $T_2$, $T_3$ (see see Figure~\ref{fig:nni}). If we note $\ell_i = \log Pr(D \| T_i)$ the likelihood of the data under tree $i$ and assume that $T_1$ is the maximum-likelihood tree, we have $\ell_1 \geq \max(\ell_2, \ell_3)$. Likelihood-based supports values essentially test whether $\delta = \ell_1 - \max(\ell_2, \ell_3)$ is significantly larger than $0$. 
+
+\begin{figure}
+ \includegraphics[width=0.9\linewidth]{Figs/NNI}
+ \caption{The maximum likelihood tree ($T_1$, left) and its two NNI-alternatives ($T_{2}$ middle and $T_{3}$ right) corresponding to different resolutions of the inner branch. Subtrees are sketched as triangles.}
+ \label{fig:nni}
+\end{figure}
+
+
+The most popular support values are:
+\begin{itemize}
+ \item the approximate Likelihood Ratio Tests (aLRT) values which evaluates the statistics $\delta$ and compares it to $0.5\chi^2_0 + 0.5\chi^2_1$ to compute a p-value. The p-value is then converted into a support value between $1/8$ and $1$. A branch with high $\delta$ will have high support. 
+ \item the SH-corrected aLRT (SH-aLRT) values are based on the same idea but use the non-parametric~\citet{Shimodaira1999} procedure to compute the p-value of $\delta$.
+ \item Finally approximate bayes (aBayes) is an approximation of the posterior probability of tree $T_i$ computed as:
+ \[
+  Pr(T_i | D) = \frac{Pr(T_i) Pr(D | T_i)}{\sum_{j=1}^3 Pr(T_j) Pr(D | T_j)}
+ \]
+ with a flat prior $Pr(T_1) = Pr(T_2)= Pr(T_3)$
+\end{itemize}
+
+All likelihood-based supports (aBayes, aLRT, SH-aLRT) amount to testing if $T_1$ is significantly better than $T_2$ and $T_3$. By focusing on one branch at the time rather than questioning the whole tree, likelihood-based supports are less conservative than $BP$ and $PP$. They can also reuse likelihood computed while estimating the focal tree and are therefore much faster to compute than standard $BP$. Finally, they proved to be accurate in simulations studies~\citep{Anisimova2011}. They are the default support values in PhyML~\citep{Guindon2003}. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Outliers in the Data} \label{sec:outliers}
