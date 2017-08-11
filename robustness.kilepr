@@ -83,10 +83,10 @@ order=3
 
 [item:Robustness.tex]
 archive=true
-column=53
+column=205
 encoding=UTF-8
 highlight=LaTeX
-line=143
+line=174
 mode=LaTeX
 open=true
 order=1
@@ -130,10 +130,10 @@ JumpList=
 ViMarks=.,34,334,[,34,334,],34,334
 
 [view-settings,view=0,item:Robustness.tex]
-CursorColumn=53
-CursorLine=143
+CursorColumn=205
+CursorLine=174
 JumpList=
-ViMarks=.,143,52,[,143,44,],143,52
+ViMarks=.,174,204,[,174,202,],174,204
 
 [view-settings,view=0,item:book_chapter.tex]
 CursorColumn=37
