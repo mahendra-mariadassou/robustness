@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.3
-lastDocument=book_chapter.tex
+lastDocument=Confidence.tex
 masterDocument=
 name=robustness
 pkg_extIsRegExp=false
@@ -15,6 +15,13 @@ src_extensions=.tex .ltx .latex .dtx .ins
 [Tools]
 MakeIndex=
 QuickBuild=
+
+[document-settings,item:Confidence.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
 
 [document-settings,item:Error_Sources.tex]
 Bookmarks=
@@ -51,12 +58,22 @@ Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
 
-[item:Error_Sources.tex]
+[item:Confidence.tex]
 archive=true
-column=0
+column=216
 encoding=UTF-8
 highlight=LaTeX
-line=32
+line=13
+mode=LaTeX
+open=true
+order=5
+
+[item:Error_Sources.tex]
+archive=true
+column=9
+encoding=UTF-8
+highlight=LaTeX
+line=4
 mode=LaTeX
 open=true
 order=2
@@ -83,20 +100,20 @@ order=3
 
 [item:Robustness.tex]
 archive=true
-column=617
+column=12
 encoding=UTF-8
 highlight=LaTeX
-line=173
+line=134
 mode=LaTeX
 open=true
 order=1
 
 [item:book_chapter.tex]
 archive=true
-column=18
+column=32
 encoding=UTF-8
 highlight=LaTeX
-line=49
+line=51
 mode=LaTeX
 open=true
 order=0
@@ -111,9 +128,15 @@ mode=
 open=false
 order=-1
 
+[view-settings,view=0,item:Confidence.tex]
+CursorColumn=216
+CursorLine=13
+JumpList=
+ViMarks=.,13,214,[,13,186,],13,214
+
 [view-settings,view=0,item:Error_Sources.tex]
-CursorColumn=0
-CursorLine=32
+CursorColumn=9
+CursorLine=4
 JumpList=
 ViMarks=.,21,16,[,21,0,],21,16
 
@@ -130,13 +153,13 @@ JumpList=
 ViMarks=.,34,334,[,34,334,],34,334
 
 [view-settings,view=0,item:Robustness.tex]
-CursorColumn=617
-CursorLine=173
+CursorColumn=12
+CursorLine=134
 JumpList=
 ViMarks=.,173,617,[,173,617,],173,617
 
 [view-settings,view=0,item:book_chapter.tex]
-CursorColumn=18
-CursorLine=49
+CursorColumn=32
+CursorLine=51
 JumpList=
 ViMarks=.,49,18,[,49,18,],49,18

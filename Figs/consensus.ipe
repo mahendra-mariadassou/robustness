@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70107" creator="Ipe 7.1.10">
-<info created="D:20110302134249" modified="D:20170821170445"/>
+<info created="D:20110302134249" modified="D:20170822100410"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -571,198 +571,7 @@ h
 <text matrix="1 0 0 1 33.51 -376" transformations="translations" pos="224 496" stroke="black" type="label" width="12.98" height="14.116" depth="0" valign="baseline" size="huge">E</text>
 <text matrix="1 0 0 1 33.51 -376" transformations="translations" pos="288 496" stroke="black" type="label" width="12.441" height="14.116" depth="0" valign="baseline" size="huge">F</text>
 </group>
-<group layer="beta">
-<group matrix="1 0 0 1 0 -1">
-<path matrix="1.4 0 0 1.5 -73.6 -384" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -3.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">AB|CDEF</text>
-</group>
-<group matrix="-0.707107 0.707107 -0.707107 -0.707107 698.455 1236.63">
-<path stroke="red" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="red" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-</group>
-<group layer="gamma" pin="h">
-<group>
-<path matrix="1.4 0 0 1.5 -73.6 -424" stroke="black" fill="lightgreen" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<group matrix="-0.707107 0.707107 -0.707107 -0.707107 747.455 1219.63">
-<path stroke="green" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="green" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-</group>
-<text matrix="1 0 0 1 17.6935 -43.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABEF|CD</text>
-</group>
-<group layer="delta">
-<path matrix="1.4 0 0 1.5 -73.6 -464" stroke="black" fill="lightblue" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -83.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABCD|EF</text>
-<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -323.632 1321.45">
-<path stroke="blue" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="blue" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-</group>
-<group layer="zeta">
-<group matrix="1 0 0 1 0 -145">
-<path matrix="1.4 0 0 1.5 -73.6 -384" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -3.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">AB|CDEF</text>
-</group>
-<path matrix="1.4 0 0 1.5 -73.6 -568" stroke="black" fill="orange" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -187.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABC|DEF</text>
-<path matrix="1.4 0 0 1.5 -73.6 -608" stroke="black" fill="lightgray" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -227.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABCF|DE</text>
-<group>
-<group matrix="-0.707107 0.707107 -0.707107 -0.707107 698.455 1092.63">
-<path stroke="red" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="red" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -331.632 1185.45">
-<path stroke="darkorange" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="darkorange" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -315.632 1169.45">
-<path stroke="0.533" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="0.533" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-</group>
-</group>
-<group>
-<path matrix="1.4 0 0 1.5 -73.6 -712" stroke="black" fill="0.757 0.51 1" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -331.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABD|CEF</text>
-<path matrix="1.4 0 0 1.5 -73.6 -752" stroke="black" fill="lightblue" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -371.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABCD|EF</text>
-<group>
-<group matrix="-0.707107 0.707107 -0.707107 -0.707107 698.455 948.63">
-<path stroke="red" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="red" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -315.632 1025.45">
-<path stroke="blue" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="blue" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -331.632 1041.45">
-<path stroke="darkmagenta" pen="ultrafat">
-64 784 m
-80 776 l
-</path>
-<path stroke="darkmagenta" pen="ultrafat">
-64 776 m
-80 784 l
-</path>
-</group>
-<group matrix="1 0 0 1 0 -289">
-<path matrix="1.4 0 0 1.5 -73.6 -384" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -3.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">AB|CDEF</text>
-</group>
-</group>
-</group>
-<path layer="alpha" stroke="darkgray" pen="ultrafat">
-32 784 m
-32 640 l
-368 640 l
-368 784 l
-h
-</path>
-<path layer="epsilon" matrix="1 0 0 1 0 -144" stroke="darkgray" pen="ultrafat">
+<path matrix="1 0 0 1 0 -144" stroke="darkgray" pen="ultrafat">
 32 784 m
 32 640 l
 368 640 l
@@ -776,9 +585,6 @@ h
 368 784 l
 h
 </path>
-<text layer="eta" transformations="translations" pos="40 760" stroke="black" type="label" width="28.968" height="13.319" depth="0" valign="baseline" size="huge">x40</text>
-<text transformations="translations" pos="40 616" stroke="black" type="label" width="28.968" height="13.319" depth="0" valign="baseline" size="huge">x48</text>
-<text transformations="translations" pos="40 472" stroke="black" type="label" width="28.968" height="13.319" depth="0" valign="baseline" size="huge">x12</text>
 <group layer="theta" matrix="1 0 0 1 -2 0">
 <text matrix="0.683346 0 0 0.683346 430.936 186.594" transformations="translations" pos="32 488" stroke="black" type="label" width="14.326" height="14.116" depth="0" valign="baseline" size="huge">A</text>
 <text matrix="0.683346 0 0 0.683346 430.936 181.128" transformations="translations" pos="96 496" stroke="black" type="label" width="13.52" height="14.116" depth="0" valign="baseline" size="huge">B</text>
@@ -834,80 +640,7 @@ h
 480 592 l
 </path>
 </group>
-<group layer="kappa" matrix="1 0 0 1 0 44">
-<path matrix="1.4 0 0 1.5 182.4 -712" stroke="black" fill="0.757 0.51 1" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 273.693 -331.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABD|CEF</text>
-</group>
-<text matrix="1 0 0 1 0 1.3405" transformations="translations" pos="624 464" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">12</text>
-<group matrix="1 0 0 1 0 -120">
-<group>
-<path matrix="1.4 0 0 1.5 182.4 -508" stroke="black" fill="lightgreen" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 0 1.3405" transformations="translations" pos="624 624" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">40</text>
-</group>
-<text matrix="1 0 0 1 273.693 -127.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABEF|CD</text>
-</group>
-<group>
-<group matrix="1 0 0 1 256 -85">
-<path matrix="1.4 0 0 1.5 -73.6 -384" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 17.6935 -3.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">AB|CDEF</text>
-</group>
-<text matrix="1 0 0 1 0 0.3405" transformations="translations" pos="624 664" stroke="black" type="label" width="28.429" height="13.319" depth="0" valign="baseline" size="huge">100</text>
-</group>
-<group matrix="1 0 0 1 0 40">
-<path matrix="1.4 0 0 1.5 182.4 -548" stroke="black" fill="lightblue" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 273.693 -167.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABCD|EF</text>
-<text matrix="1 0 0 1 0 1.3405" transformations="translations" pos="624 584" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">52</text>
-</group>
-<group matrix="1 0 0 1 0 40">
-<group matrix="1 0 0 1 0 -20">
-<path matrix="1.4 0 0 1.5 182.4 -568" stroke="black" fill="orange" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 273.693 -187.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABC|DEF</text>
-</group>
-<text matrix="1 0 0 1 0 1.3405" transformations="translations" pos="624 544" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">48</text>
-</group>
-<group matrix="1 0 0 1 0 40">
-<group matrix="1 0 0 1 0 -20">
-<path matrix="1.4 0 0 1.5 182.4 -608" stroke="black" fill="lightgray" pen="ultrafat">
-224 768 m
-224 752 l
-304 752 l
-304 768 l
-h
-</path>
-<text matrix="1 0 0 1 273.693 -227.058" transformations="translations" pos="228 752" stroke="black" type="label" width="100.613" height="14.116" depth="0" valign="baseline" size="huge">ABCF|DE</text>
-</group>
-<text matrix="1 0 0 1 0 1.3405" transformations="translations" pos="624 504" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">48</text>
-</group>
+<text layer="kappa" matrix="1 0 0 1 0 1.3405" transformations="translations" pos="624 464" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">12</text>
 <path layer="iota" matrix="1.38626 0 0 1 -119.223 -40" stroke="0.451" dash="dashed" pen="3">
 352 756 m
 384.161 756 l
@@ -1064,5 +797,271 @@ h
 <text matrix="1 0 0 1 190.522 -282.551" transformations="translations" pos="495.677 639.513" stroke="black" type="label" width="249.313" height="14.347" depth="4.02" valign="baseline" size="huge">\bf{Extended Majority Rule}</text>
 <text matrix="1 0 0 1 32 0" transformations="translations" pos="80 800" stroke="black" type="label" width="145.745" height="14.349" depth="0" valign="baseline" size="huge">\bf{Forest of trees}</text>
 <text matrix="1 0 0 1 636 0" transformations="translations" pos="80 800" stroke="black" type="label" width="157.951" height="14.177" depth="0" valign="baseline" size="huge">\bf{Consensus Tree}</text>
+<group matrix="1 0 0 1 32 0">
+<text transformations="translations" pos="40 760" stroke="black" type="label" width="28.968" height="13.319" depth="0" valign="baseline" size="huge">x40</text>
+<text transformations="translations" pos="40 616" stroke="black" type="label" width="28.968" height="13.319" depth="0" valign="baseline" size="huge">x48</text>
+<text transformations="translations" pos="40 472" stroke="black" type="label" width="28.968" height="13.319" depth="0" valign="baseline" size="huge">x12</text>
+</group>
+<text transformations="translations" pos="40 760" stroke="black" type="label" width="19.38" height="14.119" depth="3.1" valign="baseline" size="huge">\bf{$T_1$}</text>
+<text matrix="1 0 0 1 0 -144" transformations="translations" pos="40 760" stroke="black" type="label" width="19.38" height="14.119" depth="3.1" valign="baseline" size="huge">\bf{$T_2$}</text>
+<text matrix="1 0 0 1 0 -288" transformations="translations" pos="40 760" stroke="black" type="label" width="19.38" height="14.119" depth="3.1" valign="baseline" size="huge">\bf{$T_3$}</text>
+<group matrix="-0.707107 0.707107 -0.707107 -0.707107 698.455 1236.63">
+<path stroke="red" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="red" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group>
+<path matrix="1.4 0 0 1.5 -73.6 -385" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -2.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">AB$|$CDEF</text>
+</group>
+<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -323.632 1321.45">
+<path stroke="blue" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="blue" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group matrix="1 0 0 1 0 -144">
+<path matrix="1.4 0 0 1.5 -73.6 -385" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -2.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">AB$|$CDEF</text>
+</group>
+<group>
+<group matrix="-0.707107 0.707107 -0.707107 -0.707107 698.455 1092.63">
+<path stroke="red" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="red" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -331.632 1185.45">
+<path stroke="darkorange" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="darkorange" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -315.632 1169.45">
+<path stroke="0.533" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="0.533" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+</group>
+<text matrix="1 0 0 1 0 0.3405" transformations="translations" pos="624 664" stroke="black" type="label" width="28.429" height="13.319" depth="0" valign="baseline" size="huge">100</text>
+<group matrix="1 0 0 1 256 -84">
+<path matrix="1.4 0 0 1.5 -73.6 -385" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -2.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">AB$|$CDEF</text>
+</group>
+<text matrix="1 0 0 1 0 -118.659" transformations="translations" pos="624 624" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">40</text>
+<path stroke="darkgray" pen="ultrafat">
+32 784 m
+32 640 l
+368 640 l
+368 784 l
+h
+</path>
+<group>
+<group>
+<path matrix="1.4 0 0 1.5 -73.6 -424" stroke="black" fill="lightgreen" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<group matrix="-0.707107 0.707107 -0.707107 -0.707107 747.455 1219.63">
+<path stroke="green" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="green" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+</group>
+<group>
+<text matrix="1 0 0 1 24.3 -41.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABEF$|$CD</text>
+</group>
+</group>
+<path matrix="1.4 0 0 1.5 182.4 -628" stroke="black" fill="lightgreen" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<group matrix="1 0 0 1 256 -204">
+<text matrix="1 0 0 1 24.3 -41.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABEF$|$CD</text>
+</group>
+<text matrix="1 0 0 1 0 41.3405" transformations="translations" pos="624 584" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">52</text>
+<group>
+<path matrix="1.4 0 0 1.5 -73.6 -464" stroke="black" fill="lightblue" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -81.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABCD$|$EF</text>
+</group>
+<group matrix="1 0 0 1 256 -44">
+<path matrix="1.4 0 0 1.5 -73.6 -464" stroke="black" fill="lightblue" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -81.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABCD$|$EF</text>
+</group>
+<group matrix="1 0 0 1 0 -288">
+<path matrix="1.4 0 0 1.5 -73.6 -464" stroke="black" fill="lightblue" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -81.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABCD$|$EF</text>
+</group>
+<text matrix="1 0 0 1 0 41.3405" transformations="translations" pos="624 504" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">48</text>
+<group>
+<path matrix="1.4 0 0 1.5 182.4 -588" stroke="black" fill="lightgray" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 280.3 -205.162" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABCF$|$DE</text>
+</group>
+<group matrix="1 0 0 1 -256 -20">
+<path matrix="1.4 0 0 1.5 182.4 -588" stroke="black" fill="lightgray" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 280.3 -205.162" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABCF$|$DE</text>
+</group>
+<text matrix="1 0 0 1 0 41.3405" transformations="translations" pos="624 544" stroke="black" type="label" width="18.952" height="13.319" depth="0" valign="baseline" size="huge">48</text>
+<group>
+<path matrix="1.4 0 0 1.5 182.4 -548" stroke="black" fill="orange" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 280.3 -165.162" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABC$|$DEF</text>
+</group>
+<group matrix="1 0 0 1 -256 -20">
+<path matrix="1.4 0 0 1.5 182.4 -548" stroke="black" fill="orange" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 280.3 -165.162" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABC$|$DEF</text>
+</group>
+<group>
+<path matrix="1.4 0 0 1.5 182.4 -668" stroke="black" fill="0.757 0.51 1" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 280.3 -285.161" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABD$|$CEF</text>
+</group>
+<group matrix="1 0 0 1 -256 -44">
+<path matrix="1.4 0 0 1.5 182.4 -668" stroke="black" fill="0.757 0.51 1" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 280.3 -285.161" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">ABD$|$CEF</text>
+</group>
+<group matrix="-0.707107 0.707107 -0.707107 -0.707107 698.455 948.63">
+<path stroke="red" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="red" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -315.632 1025.45">
+<path stroke="blue" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="blue" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group matrix="-0.707107 -0.707107 0.707107 -0.707107 -331.632 1041.45">
+<path stroke="darkmagenta" pen="ultrafat">
+64 784 m
+80 776 l
+</path>
+<path stroke="darkmagenta" pen="ultrafat">
+64 776 m
+80 784 l
+</path>
+</group>
+<group matrix="1 0 0 1 0 -288">
+<path matrix="1.4 0 0 1.5 -73.6 -385" stroke="black" fill="1 0.471 0.471" pen="ultrafat">
+224 768 m
+224 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text matrix="1 0 0 1 24.3 -2.1615" transformations="translations" pos="228 752" stroke="black" type="label" width="87.4" height="15.493" depth="5.17" valign="baseline" size="huge">AB$|$CDEF</text>
+</group>
 </page>
 </ipe>
