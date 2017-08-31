@@ -1,0 +1,579 @@
+\begin{thebibliography}{77}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aberer et~al.(2013)Aberer, Krompass, and Stamatakis]{Aberer2013}
+Andre~J. Aberer, Denis Krompass, and Alexandros Stamatakis.
+\newblock Pruning rogue taxa improves phylogenetic accuracy: An efficient
+  algorithm and webservice.
+\newblock \emph{Systematic Biology}, 62\penalty0 (1):\penalty0 162--166, 2013.
+\newblock \doi{10.1093/sysbio/sys078}.
+\newblock URL \url{+ http://dx.doi.org/10.1093/sysbio/sys078}.
+
+\bibitem[Anisimova and Gascuel(2006)]{Anisimova2006}
+Maria Anisimova and Olivier Gascuel.
+\newblock Approximate likelihood-ratio test for branches: A fast, accurate, and
+  powerful alternative.
+\newblock \emph{Syst Biol}, 55\penalty0 (4):\penalty0 539--552, Aug 2006.
+\newblock \doi{10.1080/10635150600755453}.
+\newblock URL \url{http://dx.doi.org/10.1080/10635150600755453}.
+
+\bibitem[Anisimova et~al.(2011)Anisimova, Gil, Dufayard, Dessimoz, and
+  Gascuel]{Anisimova2011}
+Maria Anisimova, Manuel Gil, Jean-François Dufayard, Christophe Dessimoz, and
+  Olivier Gascuel.
+\newblock Survey of branch support methods demonstrates accuracy, power, and
+  robustness of fast likelihood-based approximation schemes.
+\newblock \emph{Syst Biol}, 60\penalty0 (5):\penalty0 685--699, Oct 2011.
+\newblock \doi{10.1093/sysbio/syr041}.
+\newblock URL \url{http://dx.doi.org/10.1093/sysbio/syr041}.
+
+\bibitem[Bar-Hen et~al.(2008)Bar-Hen, Mariadassou, Poursat, and
+  Vandenkoornhuyse]{Bar-Hen2008}
+Avner Bar-Hen, Mahendra Mariadassou, Marie-Anne Poursat, and Philippe
+  Vandenkoornhuyse.
+\newblock Influence function for robust phylogenetic reconstructions.
+\newblock \emph{Mol Biol Evol}, 25\penalty0 (5):\penalty0 869--873, May 2008.
+\newblock \doi{10.1093/molbev/msn030}.
+\newblock URL \url{http://dx.doi.org/10.1093/molbev/msn030}.
+
+\bibitem[Barden and Le(2017)]{barden2017logarithm}
+Dennis Barden and Huiling Le.
+\newblock The logarithm map, its limits and frechet means in orthant spaces.
+\newblock \emph{arXiv preprint arXiv:1703.07081}, 2017.
+
+\bibitem[Barden et~al.(2014)Barden, Le, and Owen]{barden2014limiting}
+Dennis Barden, Huiling Le, and Megan Owen.
+\newblock Limiting behaviour of fr{\'e}chet means in the space of phylogenetic
+  trees.
+\newblock \emph{Annals of the Institute of Statistical Mathematics}, pages
+  1--31, 2014.
+
+\bibitem[Barnett and Lewis(1994)]{Barnett1994}
+V.~Barnett and T.~Lewis.
+\newblock \emph{Outliers in Statistical Data}.
+\newblock John Wiley \& Sons, 1994.
+
+\bibitem[Barth{\'e}lemy and McMorris(1986)]{Barthelemy1986}
+Jean-Pierre Barth{\'e}lemy and F.~R. McMorris.
+\newblock The median procedure for n-trees.
+\newblock \emph{Journal of Classification}, 3\penalty0 (2):\penalty0 329--334,
+  Sep 1986.
+\newblock ISSN 1432-1343.
+\newblock \doi{10.1007/BF01894194}.
+\newblock URL \url{https://doi.org/10.1007/BF01894194}.
+
+\bibitem[Billera et~al.(2001)Billera, Holmes, and Vogtmann]{Billera2001}
+Louis~J. Billera, Susan~P. Holmes, and Karen Vogtmann.
+\newblock Geometry of the space of phylogenetic trees.
+\newblock \emph{Advances in Applied Math.}, 27:\penalty0 733--767, 2001.
+\newblock URL \url{http://www.math.cornell.edu/~billera/papers/treespace.pdf}.
+
+\bibitem[Bordewich et~al.(2008)Bordewich, Rodrigo, and Semple]{Bordewich2008}
+Magnus Bordewich, Allen~G Rodrigo, and Charles Semple.
+\newblock Selecting taxa to save or sequence: desirable criteria and a greedy
+  solution.
+\newblock \emph{Syst Biol}, 57\penalty0 (6):\penalty0 825--834, Dec 2008.
+\newblock \doi{10.1080/10635150802552831}.
+\newblock URL \url{http://dx.doi.org/10.1080/10635150802552831}.
+
+\bibitem[Brown and Owen(2017)]{brown2017mean}
+Daniel~G Brown and Megan Owen.
+\newblock Mean and variance of phylogenetic trees.
+\newblock \emph{arXiv preprint arXiv:1708.00294}, 2017.
+
+\bibitem[Bryant(2003)]{Bryant2003}
+D.~Bryant.
+\newblock A classification of consensus methods for phylogenetics.
+\newblock \emph{Bioconsensus}, 61:\penalty0 163--183, 2003.
+
+\bibitem[Buneman(1971)]{Buneman1971}
+Peter Buneman.
+\newblock \emph{Mathematics the the Archeological and Historical Sciences},
+  chapter The Recovery of Trees from Measures of Dissimilarity, pages 387--395.
+\newblock Edinburgh University Press, 1971.
+\newblock ISBN 9780852242131.
+
+\bibitem[Burleigh and Mathews(2004)]{Burleigh2004}
+J.~Gordon Burleigh and Sarah Mathews.
+\newblock Phylogenetic signal in nucleotide data from seed plants: implications
+  for resolving the seed plant tree of life.
+\newblock \emph{American Journal of Botany}, 91\penalty0 (10):\penalty0
+  1599--1613, 2004.
+\newblock \doi{10.3732/ajb.91.10.1599}.
+\newblock URL \url{http://www.amjbot.org/content/91/10/1599.abstract}.
+
+\bibitem[de~Vienne et~al.(2012)de~Vienne, Ollier, and Aguileta]{de2012phylo}
+Damien~M de~Vienne, S{\'e}bastien Ollier, and Gabriela Aguileta.
+\newblock Phylo-mcoa: a fast and efficient method to detect outlier genes and
+  species in phylogenomics using multiple co-inertia analysis.
+\newblock \emph{Molecular biology and evolution}, 29\penalty0 (6):\penalty0
+  1587--1598, 2012.
+
+\bibitem[Degnan and Rosenberg(2009)]{Degnan2009}
+James~H Degnan and Noah~A Rosenberg.
+\newblock Gene tree discordance, phylogenetic inference and the multispecies
+  coalescent.
+\newblock \emph{Trends Ecol Evol}, 24\penalty0 (6):\penalty0 332--340, Jun
+  2009.
+\newblock \doi{10.1016/j.tree.2009.01.009}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.tree.2009.01.009}.
+
+\bibitem[Efron et~al.(1996)Efron, Halloran, and Holmes]{Efron1996}
+B.~Efron, E.~Halloran, and S.~Holmes.
+\newblock Bootstrap confidence levels for phylogenetic trees.
+\newblock \emph{Proc Natl Acad Sci U S A}, 93\penalty0 (14):\penalty0
+  7085--7090, Jul 1996.
+\newblock URL \url{http://www.pnas.org/cgi/content/full/93/23/13429}.
+
+\bibitem[Eisen(1998)]{Eisen1998}
+J.~A. Eisen.
+\newblock Phylogenomics: improving functional predictions for uncharacterized
+  genes by evolutionary analysis.
+\newblock \emph{Genome Res}, 8\penalty0 (3):\penalty0 163--167, Mar 1998.
+
+\bibitem[Felsenstein(1978)]{Felsenstein1978}
+J.~Felsenstein.
+\newblock Cases in which parsimony or compatibility methods will be positively
+  misleading.
+\newblock \emph{Systematic Zoology}, 27\penalty0 (4):\penalty0 401--410, 1978.
+\newblock URL
+  \url{http://www.molecularevolution.org/si/resources/references/files/Felsenstein_1978.pdf}.
+
+\bibitem[Felsenstein(1985)]{Felsenstein1985}
+J.~Felsenstein.
+\newblock Confidence limits on phylogenies: An approach using the bootstrap.
+\newblock \emph{Evolution}, 39\penalty0 (4):\penalty0 783--791, July 1985.
+\newblock \doi{10.2307/2408678}.
+\newblock URL
+  \url{http://links.jstor.org/sici?sici=0014-3820(198507)39:4%3C783:CLOPAA%3E2.0.CO;2-L}.
+
+\bibitem[Felsenstein(2005)]{Felsenstein2005}
+J.~Felsenstein.
+\newblock Phylip (phylogeny inference package) version 3.6.
+\newblock Distributed by the author, 2005.
+
+\bibitem[Felsenstein and Kishino(1993)]{Felsenstein1993}
+J.~Felsenstein and H.~Kishino.
+\newblock Is there something wrong with the bootstrap on phylogenies? a reply
+  to hillis and bull.
+\newblock \emph{Systematic Biology}, 42\penalty0 (2):\penalty0 193--200, June
+  1993.
+\newblock \doi{10.2307/2992541}.
+\newblock URL
+  \url{http://links.jstor.org/sici?sici=1063-5157(199306)42%3A2%3C193%3AITSWWT%3E2.0.CO%3B2-Y}.
+
+\bibitem[Felsenstein(2004)]{Felsenstein2004}
+Joseph Felsenstein.
+\newblock \emph{Inferring Phylogenies}.
+\newblock {Sinauer Associates}, September 2004.
+
+\bibitem[Felsenstein and Churchill(1996)]{felsenstein1996hidden}
+Joseph Felsenstein and Gary~A Churchill.
+\newblock A hidden markov model approach to variation among sites in rate of
+  evolution.
+\newblock \emph{Molecular biology and evolution}, 13\penalty0 (1):\penalty0
+  93--104, 1996.
+
+\bibitem[Foster(2004)]{foster2004modeling}
+Peter~G Foster.
+\newblock Modeling compositional heterogeneity.
+\newblock \emph{Systematic Biology}, 53\penalty0 (3):\penalty0 485--495, 2004.
+
+\bibitem[Gascuel(2005)]{Gascuel2005a}
+O.~Gascuel.
+\newblock \emph{Mathematics of evolution and phylogeny}.
+\newblock Oxford University Press, 2005.
+
+\bibitem[Goldman and Yang(1994)]{goldman1994codon}
+Nick Goldman and Ziheng Yang.
+\newblock A codon-based model of nucleotide substitution for protein-coding dna
+  sequences.
+\newblock \emph{Molecular biology and evolution}, 11\penalty0 (5):\penalty0
+  725--736, 1994.
+
+\bibitem[Guindon and Gascuel(2003)]{Guindon2003}
+Stéphane Guindon and Olivier Gascuel.
+\newblock A simple, fast, and accurate algorithm to estimate large phylogenies
+  by maximum likelihood.
+\newblock \emph{Syst Biol}, 52\penalty0 (5):\penalty0 696--704, Oct 2003.
+\newblock \doi{10.1080/10635150390235520}.
+\newblock URL
+  \url{http://www.informaworld.com/smpp/ftinterface~content=a713850337~fulltext=713240930}.
+
+\bibitem[Halpern and Bruno(1998)]{halpern1998evolutionary}
+Aaron~L Halpern and William~J Bruno.
+\newblock Evolutionary distances for protein-coding sequences: modeling
+  site-specific residue frequencies.
+\newblock \emph{Molecular biology and evolution}, 15\penalty0 (7):\penalty0
+  910--917, 1998.
+
+\bibitem[Hampel(1974)]{Hampel1974}
+F.~R. Hampel.
+\newblock The influence curve and its role in robust estimation.
+\newblock \emph{J. Amer. Statist. Assoc.}, 69:\penalty0 383--393, 1974.
+
+\bibitem[Heath et~al.(2008)Heath, Hedtke, and Hillis]{Heath2008}
+Tracy~A Heath, Shannon~M Hedtke, and David~M Hillis.
+\newblock Taxon sampling and the accuracy of phylogenetic analyses.
+\newblock \emph{J Mol Evol}, 46:\penalty0 239--257, 2008.
+\newblock URL
+  \url{http://www.plantsystematics.com/qikan/epaper/hb_zhaiyao.asp}.
+
+\bibitem[Hillis and Bull(1993)]{Hillis1993}
+David~M. Hillis and James~J. Bull.
+\newblock An empirical test of bootstrapping as a method for assessing
+  confidence in phylogenetic analysis.
+\newblock \emph{Systematic Biology}, 42\penalty0 (2):\penalty0 182--192, June
+  1993.
+\newblock \doi{10.2307/2992540}.
+
+\bibitem[Holland et~al.(2003)Holland, Penny, and Hendy]{Holland2003}
+B.~R. Holland, D.~Penny, and M.~D. Hendy.
+\newblock Outgroup misplacement and phylogenetic inaccuracy under a molecular
+  clock--a simulation study.
+\newblock \emph{Syst Biol}, 52\penalty0 (2):\penalty0 229--238, Apr 2003.
+\newblock \doi{10.1080/10635150390192771}.
+\newblock URL
+  \url{http://www.informaworld.com/smpp/content~content=a713850188~db=all~order=page}.
+
+\bibitem[Jermiin et~al.(2004)Jermiin, Ho, Ababneh, Robinson, and
+  Larkum]{jermiin2004biasing}
+Lars~S Jermiin, Simon~YW Ho, Faisal Ababneh, John Robinson, and Anthony~WD
+  Larkum.
+\newblock The biasing effect of compositional heterogeneity on phylogenetic
+  estimates may be underestimated.
+\newblock \emph{Systematic Biology}, 53\penalty0 (4):\penalty0 638--643, 2004.
+
+\bibitem[Kumar et~al.(2012)Kumar, Filipski, Battistuzzi, Pond, and
+  Tamura]{Kumar2012}
+Sudhir Kumar, Alan~J Filipski, Fabia~U Battistuzzi, Sergei L~Kosakovsky Pond,
+  and Koichiro Tamura.
+\newblock Statistics and truth in phylogenomics.
+\newblock \emph{Mol Biol Evol}, 29\penalty0 (2):\penalty0 457--472, Feb 2012.
+\newblock \doi{10.1093/molbev/msr202}.
+\newblock URL \url{http://dx.doi.org/10.1093/molbev/msr202}.
+
+\bibitem[Lartillot and Philippe(2004)]{lartillot2004bayesian}
+Nicolas Lartillot and Herv{\'e} Philippe.
+\newblock A bayesian mixture model for across-site heterogeneities in the
+  amino-acid replacement process.
+\newblock \emph{Molecular biology and evolution}, 21\penalty0 (6):\penalty0
+  1095--1109, 2004.
+
+\bibitem[Laurin-Lemay et~al.(2012)Laurin-Lemay, Brinkmann, and
+  Philippe]{laurin2012origin}
+Simon Laurin-Lemay, Henner Brinkmann, and Herv{\'e} Philippe.
+\newblock Origin of land plants revisited in the light of sequence
+  contamination and missing data.
+\newblock \emph{Current Biology}, 22\penalty0 (15):\penalty0 R593--R594, 2012.
+
+\bibitem[Lopez et~al.(1999)Lopez, Forterre, and Philippe]{Lopez1999}
+P.~Lopez, P.~Forterre, and H.~Philippe.
+\newblock The root of the tree of life in the light of the covarion model.
+\newblock \emph{J Mol Evol}, 49\penalty0 (4):\penalty0 496--508, Oct 1999.
+\newblock URL \url{http://www.springerlink.com/content/hwle29fxv74ra6xy/}.
+
+\bibitem[Margush and McMorris(1981)]{Margush1981}
+T.~Margush and F.~R. McMorris.
+\newblock Consensus n-trees.
+\newblock \emph{Bulletin of Mathematical Biology}, 43\penalty0 (2):\penalty0
+  239--244, Mar 1981.
+\newblock ISSN 1522-9602.
+\newblock \doi{10.1007/BF02459446}.
+\newblock URL \url{https://doi.org/10.1007/BF02459446}.
+
+\bibitem[Mariadassou et~al.(2012)Mariadassou, Bar-Hen, and
+  Kishino]{Mariadassou2012}
+Mahendra Mariadassou, Avner Bar-Hen, and Hirohisa Kishino.
+\newblock Taxon influence index: assessing taxon-induced incongruities in
+  phylogenetic inference.
+\newblock \emph{Syst Biol}, 61\penalty0 (2):\penalty0 337--345, Mar 2012.
+\newblock \doi{10.1093/sysbio/syr129}.
+\newblock URL \url{http://dx.doi.org/10.1093/sysbio/syr129}.
+
+\bibitem[Miller et~al.(2015{\natexlab{a}})Miller, Owen, and Provan]{Miller2015}
+Ezra Miller, Megan Owen, and J.~Scott Provan.
+\newblock Polyhedral computational geometry for averaging metric phylogenetic
+  trees.
+\newblock \emph{Advances in Applied Mathematics}, 68:\penalty0 51 -- 91,
+  2015{\natexlab{a}}.
+\newblock ISSN 0196-8858.
+\newblock \doi{https://doi.org/10.1016/j.aam.2015.04.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0196885815000470}.
+
+\bibitem[Miller et~al.(2015{\natexlab{b}})Miller, Owen, and
+  Provan]{miller2015polyhedral}
+Ezra Miller, Megan Owen, and J~Scott Provan.
+\newblock Polyhedral computational geometry for averaging metric phylogenetic
+  trees.
+\newblock \emph{Advances in Applied Mathematics}, 68:\penalty0 51--91,
+  2015{\natexlab{b}}.
+
+\bibitem[Morrison and Ellis(1997)]{morrison1997effects}
+David~A Morrison and John~T Ellis.
+\newblock Effects of nucleotide sequence alignment on phylogeny estimation: A
+  case study of 18s rdnas of apicomplexa.
+\newblock \emph{Molecular Biology and Evolution}, 14\penalty0 (4):\penalty0
+  428--441, 1997.
+
+\bibitem[Ogden and Rosenberg(2006)]{ogden2006multiple}
+T~Heath Ogden and Michael~S Rosenberg.
+\newblock Multiple sequence alignment accuracy and phylogenetic inference.
+\newblock \emph{Systematic biology}, 55\penalty0 (2):\penalty0 314--328, 2006.
+
+\bibitem[Parisi and Echave(2001)]{parisi2001structural}
+Gustavo Parisi and Juli{\'a}n Echave.
+\newblock Structural constraints and emergence of sequence patterns in protein
+  evolution.
+\newblock \emph{Molecular Biology and Evolution}, 18\penalty0 (5):\penalty0
+  750--756, 2001.
+
+\bibitem[Pennell and Harmon(2013)]{Pennell2013}
+Matthew~W. Pennell and Luke~J. Harmon.
+\newblock An integrative view of phylogenetic comparative methods: connections
+  to population genetics, community ecology, and paleobiology.
+\newblock \emph{Ann N Y Acad Sci}, 1289:\penalty0 90--105, Jun 2013.
+\newblock \doi{10.1111/nyas.12157}.
+\newblock URL \url{http://dx.doi.org/10.1111/nyas.12157}.
+
+\bibitem[Philippe et~al.(2011{\natexlab{a}})Philippe, Brinkmann, Lavrov,
+  Littlewood, Manuel, Wörheide, and Baurain]{Philippe2011}
+Hervé Philippe, Henner Brinkmann, Dennis~V Lavrov, D.~Timothy~J Littlewood,
+  Michael Manuel, Gert Wörheide, and Denis Baurain.
+\newblock Resolving difficult phylogenetic questions: why more sequences are
+  not enough.
+\newblock \emph{PLoS Biol}, 9\penalty0 (3):\penalty0 e1000602, Mar
+  2011{\natexlab{a}}.
+\newblock \doi{10.1371/journal.pbio.1000602}.
+\newblock URL \url{http://dx.doi.org/10.1371/journal.pbio.1000602}.
+
+\bibitem[Philippe et~al.(2011{\natexlab{b}})Philippe, Brinkmann, Lavrov,
+  Littlewood, Manuel, W{\"o}rheide, and Baurain]{philippe2011resolving}
+Herv{\'e} Philippe, Henner Brinkmann, Dennis~V Lavrov, D~Timothy~J Littlewood,
+  Michael Manuel, Gert W{\"o}rheide, and Denis Baurain.
+\newblock Resolving difficult phylogenetic questions: why more sequences are
+  not enough.
+\newblock \emph{PLoS biology}, 9\penalty0 (3):\penalty0 e1000602,
+  2011{\natexlab{b}}.
+
+\bibitem[Philippe et~al.(2017)Philippe, Vienne, Ranwez, Roure, Baurain, and
+  Delsuc]{philippe2017pitfalls}
+Herv{\'e} Philippe, Damien M~De Vienne, Vincent Ranwez, B{\'e}atrice Roure,
+  Denis Baurain, and Fr{\'e}d{\'e}ric Delsuc.
+\newblock Pitfalls in supermatrix phylogenomics.
+\newblock \emph{European Journal of Taxonomy}, 283:\penalty0 1--25, 2017.
+
+\bibitem[Price et~al.(2010)Price, Dehal, and Arkin]{Price2010}
+Morgan~N Price, Paramvir~S Dehal, and Adam~P Arkin.
+\newblock Fasttree 2--approximately maximum-likelihood trees for large
+  alignments.
+\newblock \emph{PLoS One}, 5\penalty0 (3):\penalty0 e9490, 2010.
+\newblock \doi{10.1371/journal.pone.0009490}.
+\newblock URL \url{http://dx.doi.org/10.1371/journal.pone.0009490}.
+
+\bibitem[Rannala(2002)]{rannala2002identifiability}
+Bruce Rannala.
+\newblock Identifiability of parameters in mcmc bayesian inference of
+  phylogeny.
+\newblock \emph{Systematic Biology}, 51\penalty0 (5):\penalty0 754--760, 2002.
+
+\bibitem[Revell et~al.(2008)Revell, Harmon, and Collar]{Revell2008}
+Liam~J Revell, Luke~J Harmon, and David~C Collar.
+\newblock Phylogenetic signal, evolutionary process, and rate.
+\newblock \emph{Syst Biol}, 57\penalty0 (4):\penalty0 591--601, Aug 2008.
+\newblock \doi{10.1080/10635150802302427}.
+\newblock URL \url{http://dx.doi.org/10.1080/10635150802302427}.
+
+\bibitem[Robinson and Foulds(1979)]{Robinson1979}
+D.~F. Robinson and L.~R. Foulds.
+\newblock \emph{Lectures Note in mathematics}, volume 748, chapter Comparison
+  of weighted labelled trees, pages 119--126.
+\newblock Springer-Verlag, Berlin, 1979.
+
+\bibitem[Rodríguez-Ezpeleta et~al.(2007)Rodríguez-Ezpeleta, Brinkmann, Roure,
+  Lartillot, Lang, Philippe, and Anderson]{Rodriguez-Ezpeleta2007}
+Naiara Rodríguez-Ezpeleta, Henner Brinkmann, Béatrice Roure, Nicolas
+  Lartillot, B.~Franz Lang, Hervé Philippe, and Frank Anderson.
+\newblock Detecting and overcoming systematic errors in genome-scale
+  phylogenies.
+\newblock \emph{Systematic Biology}, 56\penalty0 (3):\penalty0 389--399, 2007.
+\newblock \doi{10.1080/10635150701397643}.
+\newblock URL \url{+ http://dx.doi.org/10.1080/10635150701397643}.
+
+\bibitem[Rohlf(1982)]{Rohlf1982}
+F.~James Rohlf.
+\newblock Consensus indices for comparing classifications.
+\newblock \emph{Mathematical Biosciences}, 59\penalty0 (1):\penalty0 131 --
+  144, 1982.
+\newblock ISSN 0025-5564.
+\newblock \doi{http://dx.doi.org/10.1016/0025-5564(82)90112-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0025556482901122}.
+
+\bibitem[Rokas and Carroll(2005)]{Rokas2005}
+Antonis Rokas and Sean~B Carroll.
+\newblock More genes or more taxa? the relative contribution of gene number and
+  taxon number to phylogenetic accuracy.
+\newblock \emph{Mol Biol Evol}, 22\penalty0 (5):\penalty0 1337--1344, May 2005.
+\newblock \doi{10.1093/molbev/msi121}.
+\newblock URL \url{http://dx.doi.org/10.1093/molbev/msi121}.
+
+\bibitem[Rokas et~al.(2003{\natexlab{a}})Rokas, Williams, King, and
+  Carroll]{Rokas2003}
+Antonis Rokas, Barry~L Williams, Nicole King, and Sean~B Carroll.
+\newblock Genome-scale approaches to resolving incongruence in molecular
+  phylogenies.
+\newblock \emph{Nature}, 425\penalty0 (6960):\penalty0 798--804, Oct
+  2003{\natexlab{a}}.
+\newblock \doi{10.1038/nature02053}.
+\newblock URL \url{http://dx.doi.org/10.1038/nature02053}.
+
+\bibitem[Rokas et~al.(2003{\natexlab{b}})Rokas, Williams, King, and
+  Carroll]{rokas2003genome}
+Antonis Rokas, Barry~L Williams, Nicole King, and Sean~B Carroll.
+\newblock Genome-scale approaches to resolving incongruence in molecular
+  phylogenies.
+\newblock \emph{Nature}, 425\penalty0 (6960):\penalty0 798, 2003{\natexlab{b}}.
+
+\bibitem[Ronquist and Huelsenbeck(2003)]{Ronquist2003}
+Fredrik Ronquist and John~P Huelsenbeck.
+\newblock Mrbayes 3: Bayesian phylogenetic inference under mixed models.
+\newblock \emph{Bioinformatics}, 19\penalty0 (12):\penalty0 1572--1574, Aug
+  2003.
+\newblock URL
+  \url{http://bioinformatics.oxfordjournals.org/cgi/reprint/19/12/1572}.
+
+\bibitem[Rydin and Källersjö(2002)]{Rydin2002}
+Catarina Rydin and Mari Källersjö.
+\newblock Taxon sampling and seed plant phylogeny.
+\newblock \emph{Cladistics}, 18\penalty0 (5):\penalty0 485 -- 513, 2002.
+\newblock ISSN 0748-3007.
+\newblock \doi{http://dx.doi.org/10.1016/S0748-3007(02)00104-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0748300702001044}.
+
+\bibitem[Shavit et~al.(2007)Shavit, Penny, Hendy, and Holland]{Shavit2007}
+Liat Shavit, David Penny, Michael~D Hendy, and Barbara~R Holland.
+\newblock The problem of rooting rapid radiations.
+\newblock \emph{Mol Biol Evol}, 24\penalty0 (11):\penalty0 2400--2411, Nov
+  2007.
+\newblock \doi{10.1093/molbev/msm178}.
+\newblock URL \url{http://dx.doi.org/10.1093/molbev/msm178}.
+
+\bibitem[Shimodaira and Hasegawa(1999)]{Shimodaira1999}
+H.~Shimodaira and M.~Hasegawa.
+\newblock Multiple comparisons of log-likelihoods with applications to
+  phylogenetic inference.
+\newblock \emph{Mol. Biol. Evol}, 16\penalty0 (8):\penalty0 1114--1116, 1999.
+
+\bibitem[St.~John(2017)]{St.John2017}
+Katherine St.~John.
+\newblock Review paper: The shape of phylogenetic treespace.
+\newblock \emph{Systematic Biology}, 66\penalty0 (1):\penalty0 e83--e94, 2017.
+\newblock \doi{10.1093/sysbio/syw025}.
+\newblock URL \url{+ http://dx.doi.org/10.1093/sysbio/syw025}.
+
+\bibitem[Stamatakis(2006)]{Stamatakis2006}
+Alexandros Stamatakis.
+\newblock Raxml-vi-hpc: maximum likelihood-based phylogenetic analyses with
+  thousands of taxa and mixed models.
+\newblock \emph{Bioinformatics}, 22\penalty0 (21):\penalty0 2688--2690, Nov
+  2006.
+\newblock \doi{10.1093/bioinformatics/btl446}.
+\newblock URL \url{http://dx.doi.org/10.1093/bioinformatics/btl446}.
+
+\bibitem[Stamatakis(2014)]{Stamatakis2014}
+Alexandros Stamatakis.
+\newblock Raxml version 8: a tool for phylogenetic analysis and post-analysis
+  of large phylogenies.
+\newblock \emph{Bioinformatics}, 30\penalty0 (9):\penalty0 1312--1313, 2014.
+\newblock \doi{10.1093/bioinformatics/btu033}.
+\newblock URL \url{+ http://dx.doi.org/10.1093/bioinformatics/btu033}.
+
+\bibitem[Susko(2008)]{Susko2008}
+Edward Susko.
+\newblock On the distributions of bootstrap support and posterior distributions
+  for a star tree.
+\newblock \emph{Syst Biol}, 57\penalty0 (4):\penalty0 602--612, Aug 2008.
+\newblock \doi{10.1080/10635150802302468}.
+\newblock URL \url{http://dx.doi.org/10.1080/10635150802302468}.
+
+\bibitem[Susko(2010)]{Susko2010}
+Edward Susko.
+\newblock First-order correct bootstrap support adjustments for splits that
+  allow hypothesis testing when using maximum likelihood estimation.
+\newblock \emph{Mol Biol Evol}, Feb 2010.
+\newblock \doi{10.1093/molbev/msq048}.
+\newblock URL \url{http://dx.doi.org/10.1093/molbev/msq048}.
+
+\bibitem[Susko et~al.(2002)Susko, Inagaki, Field, Holder, and
+  Roger]{susko2002testing}
+Edward Susko, Yuji Inagaki, Chris Field, Michael~E Holder, and Andrew~J Roger.
+\newblock Testing for differences in rates-across-sites distributions in
+  phylogenetic subtrees.
+\newblock \emph{Molecular biology and evolution}, 19\penalty0 (9):\penalty0
+  1514--1523, 2002.
+
+\bibitem[Swofford et~al.(1996)Swofford, Olsen, Waddell, and
+  Hillis]{Swofford1996}
+David~L Swofford, Gary~J Olsen, Peter~J Waddell, and David~M Hillis.
+\newblock Phylogenetic inference.
+\newblock 1996.
+
+\bibitem[Talavera and Castresana(2007)]{talavera2007improvement}
+Gerard Talavera and Jose Castresana.
+\newblock Improvement of phylogenies after removing divergent and ambiguously
+  aligned blocks from protein sequence alignments.
+\newblock \emph{Systematic biology}, 56\penalty0 (4):\penalty0 564--577, 2007.
+
+\bibitem[Weyenberg et~al.(2014)Weyenberg, Huggins, Schardl, Howe, and
+  Yoshida]{weyenberg2014kdetrees}
+Grady Weyenberg, Peter~M Huggins, Christopher~L Schardl, Daniel~K Howe, and
+  Ruriko Yoshida.
+\newblock Kdetrees: non-parametric estimation of phylogenetic tree
+  distributions.
+\newblock \emph{Bioinformatics}, 30\penalty0 (16):\penalty0 2280--2287, 2014.
+
+\bibitem[Willis(2016)]{willis2016confidence}
+Amy Willis.
+\newblock Confidence sets for phylogenetic trees.
+\newblock \emph{arXiv preprint arXiv:1607.08288}, 2016.
+
+\bibitem[Wong et~al.(2008)Wong, Suchard, and Huelsenbeck]{wong2008alignment}
+Karen~M Wong, Marc~A Suchard, and John~P Huelsenbeck.
+\newblock Alignment uncertainty and genomic analysis.
+\newblock \emph{Science}, 319\penalty0 (5862):\penalty0 473--476, 2008.
+
+\bibitem[Yang and Rannala(1997)]{Yang1997a}
+Z.~Yang and B.~Rannala.
+\newblock Bayesian phylogenetic inference using dna sequences: a markov chain
+  monte carlo method.
+\newblock \emph{Mol Biol Evol}, 14\penalty0 (7):\penalty0 717--724, Jul 1997.
+\newblock URL \url{http://mbe.oxfordjournals.org/cgi/reprint/14/7/717}.
+
+\bibitem[Yang(2007)]{Yang2007}
+Ziheng Yang.
+\newblock Fair-balance paradox, star-tree paradox, and bayesian phylogenetics.
+\newblock \emph{Mol Biol Evol}, 24\penalty0 (8):\penalty0 1639--1655, Aug 2007.
+\newblock \doi{10.1093/molbev/msm081}.
+\newblock URL \url{http://dx.doi.org/10.1093/molbev/msm081}.
+
+\bibitem[Zharkikh and Li(1992)]{Zharkikh1992}
+A.~Zharkikh and W.~H. Li.
+\newblock Statistical properties of bootstrap estimation of phylogenetic
+  variability from nucleotide sequences. i. four taxa with a molecular clock.
+\newblock \emph{Mol Biol Evol}, 9\penalty0 (6):\penalty0 1119--1147, Nov 1992.
+\newblock URL \url{http://mbe.oxfordjournals.org/cgi/reprint/9/6/1119}.
+
+\bibitem[Zhaxybayeva et~al.(2004)Zhaxybayeva, Lapierre, and
+  Gogarten]{zhaxybayeva2004genome}
+Olga Zhaxybayeva, Pascal Lapierre, and J~Peter Gogarten.
+\newblock Genome mosaicism and organismal lineages.
+\newblock \emph{TRENDS in Genetics}, 20\penalty0 (5):\penalty0 254--260, 2004.
+
+\end{thebibliography}

@@ -2,32 +2,48 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Sources of Error} \label{sec:error-sources}
 
-We do not address the species tree/gene tree discrepancy. 
+%We do not address the species tree/gene tree discrepancy.
+%
+%\begin{itemize}
+% \item Sampling errors
+% \item Modeling errors
+%\end{itemize}
+Genome analysis indicate that a substantial fraction of genes yield phylogenies that are in strong conflict with one another Broadly speaking, these conflicts derive from two sources: (i) The inability of traditional phylogenetic reconstruction methods to deal with the complexity of molecular evolution on the largest scale (methodological sources) and/or (ii) Real biological events such as lateral gene transfer (LGT) of whole genes between genomes or transfer of subgene fragments within and between genomes (biological sources).
 
-\begin{itemize}
- \item Sampling errors
- \item Modeling errors
-\end{itemize}
-
+Methodological factors affecting phylogenetic reconstruction include the choice of optimality criterion, limited data availability, taxon sampling and specific assumptions in the modelling of sequence evolution. Biological processes such as the action of natural selection or genetic drift may cause the history of the genes under analysis to obscure the history of the taxa. The large number of potential explanations for the presence of incongruence in molecular phylogenetic analyses makes decisions on how to handle conflict in larger sets of molecular data difficult \cite{rokas2003genome}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sampling Errors} \label{sec:sampling-error}
-Noisy data (imperfect alignments, sequencing error, one individual per species, different parts of the gene/genome can have different evolutionary histories). 
+%Noisy data (imperfect alignments, sequencing error, one individual per species, different parts of the gene/genome can have different evolutionary histories).
+
+Biologial source of errors are very diverse and among other we may cite  contamination,  frameshift  events,  incorrect  annotations,  erroneous  chimerical  sequences,  wrong orthology assessment, horizontal gene transfer, gene conversion, incomplete lineage sorting or hybridization, etc. (see \cite{philippe2017pitfalls} for example)
+
+Due to the limitations of ancient sequencing technologies, sequencing errors were frequent and sequence quality was quite variable in these early datasets. High-throughput  sequencing  has  greatly  improved  sequence  quality,  mainly  through  the  large  coverage  of each nucleotide, but has simultaneously flooded researchers with an amount of data that is  impossible to  handle  by  hand. The most frequent errors observed are sequencing errors (especially for transcriptomic data) and annotation errors (especially for genomic data).  Errors due to the inclusion of non-orthologous sequences in phylogenomics can have drastic consequences on the final results (\cite{laurin2012origin,philippe2011resolving}).  Contamination is not the only source of non-orthology, paralogy being a common underhand source of issues, given the high frequency of gene/genome duplication, gene conversion and gene loss. Sequence contamination can occurr at the sampling step or at the laboratory or sequencing steps (cross-contamination).
+
+The importance of a correct alignment in phylogenetic inference has long been pointed out (\cite{morrison1997effects,ogden2006multiple,talavera2007improvement,wong2008alignment}). Yet, due to the lack of a tractable model of sequence evolution in the presence of insertion and deletion events (indels), the criteria optimized by alignment software are mostly ad hoc  and based on the simplistic assumptions that homologous characters should be similar and that indels are rare events.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Limited Amount of Informations} \label{sec:small-n}
-Noisy data (imperfect alignments, sequencing error, one individual per species, different parts of the gene/genome can have different evolutionary histories). 
+%\subsection{Limited Amount of Informations} \label{sec:small-n}
+%Noisy data (imperfect alignments, sequencing error, one individual per species, different parts of the gene/genome can have different evolutionary histories).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Modeling Errors} \label{sec:modeling-errors}
-Site independence
+%Site independence
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsubsection{Model Misspecification} \label{sec:misspecification}
+%Use of oversimplified models (Rokas et al).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Model Misspecification} \label{sec:misspecification}
-Use of oversimplified models (Rokas et al). 
+Every model is only a rough approximation to the reality of molecular evolution. At first, the assumption of independent and identical evolutionary forces across sites is certainly not true in reality. What happens at one site will depend quite critically on where that site lies in a protein or structural RNA. One approach that has been developed is to allow the rate of evolution to vary across the sites (\cite{goldman1994codon}). In essence the rate at the site is introduced into the model as a random effect from a given distribution (often a gamma distribution). \cite{felsenstein1996hidden} extended this approach to allow the rate to depend on the rate at the neighbouring sites along the sequence using a hidden Markov model. This model is expected to work well if most autocorrelation of sites occurs at neighbouring positions in the linear sequence. However, the situation in real molecules is more complex than this with serial dependence not expected as the main type of dependence.. 
 
+The rate matrices used for amino acid substitutions (JTT or PAM)are derived by averaging over patterns observed in thousands of sites. However it is clear (\cite{halpern1998evolutionary,parisi2001structural,susko2002testing}) that amino acid frequencies at sites strongly deviate from the frequencies expected under the JTT matrix.  Lartillot and Philippe (\cite{lartillot2004bayesian}) implemented a Bayesian mixture model which allows the inference of site specific rate matrices. These studies indicate that relaxing the assumption that all sites evolve according to the same rate matrices is of key importance for accurate phylogenetic inference from proteins. However, it seems likely that serious, difficult to diagnose, problems stemming from over-parameterization could result from the extremely parameter-rich models (see \cite{rannala2002identifiability} for a  discussion of over-parameterization of phylogenetic models in the context of Bayesian inference).
 
+Most models  assume stationarity, homogeneity and reversibility of the stochastic process of sequence change, even though it has been clear for many years that these assumptions are violated when considering the evolutionary process over very long time scales. For instance, the set of nucleotide or amino acid positions free to vary, and the evolutionary rates at which they vary, and the frequencies of nucleotides, codons
+and amino acids can periodically change over the tree, due to functional or structural alterations in the molecule or differing selective forces in the organisms' genomes.
 
+Other cases where the homogeneity, stationarity and/or time-reversibility of substitution models are violated include situations where the underlying state frequencies (whether they be nucleotides, amino acids or codons) in the genes of different organisms vary over the tree. If distantly related lineages begin to display similar state frequencies, these lineages can be artefactually grouped together (see for example \cite{foster2004modeling,jermiin2004biasing}).
+
+Clearly the existence of lateral gene transfer (LGT) is a major deviation form the standard model of vertical descent. Approaches are being developed to incorporate LGT into evolutionary models of genomes (see \cite{zhaxybayeva2004genome} for example).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \subsubsection{Complex Evolutionary History} \label{sec:complex-history}
 
-% Incomplete Lineage Sorting (in a multi tree Context)
+% Incomplete Lineage Sorting (in a multi tree Context) 
