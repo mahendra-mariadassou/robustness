@@ -4,3 +4,8 @@
 .Ruserdata
 *.pdf
 *.synctex
+*.bbl
+*.blg
+*.log
+*.out
+*.toc

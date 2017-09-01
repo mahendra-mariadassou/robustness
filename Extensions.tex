@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Extensions} \label{sec:extensions}
+\section{Detection of conflicting signal} \label{sec:extensions}
 
 Consensus trees assumes congruence among trees in the set. Trees that turn out to be far away from the consensus tree can be the sign of high variance or conflicting signals. While high variance implies weak phylogenetic signal, conflicting  signals implies incongruence. Most distance distances, such as RF, are discrete and lead to very coarse distance distributions. By contrast, continuous distances are a simple way to characterize variance and distinguish one from the other. Moreover continuous distance lend themselves nicely to standard aspects of inferential statistics such as confidence sets and hypothesis testing. 
 
@@ -16,10 +16,14 @@ set of trees. It also provides a justification for disregarding portions of a co
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Tree Space definition} \label{sec:Tree-distances}
- . The distance $d(T_i,T_j)$ between two trees $T_i$ and $T_j$ account for differences with respect to both their tree topologies (branching structure) and branch lengths. The space is constructed by representing each of the $(2m-3)!!$ possible tree topologies by a single non-negative Euclidean orthant of dimension $m-3$ (the largest possible number of internal branches). The orthants are then “glued together” along appropriate axes. Specifically, nearest neighbor interchange (NNI) topologies lie in adjacent non-negative orthants along the boundary corresponding to the collapse of the relevant NNI edge.
+ The distance $d(T_i,T_j)$ between two trees $T_i$ and $T_j$ account for differences with respect to both their tree topologies (branching structure) and branch lengths. The space is constructed by representing each of the $(2m-3)!!$ possible tree topologies by a single non-negative Euclidean orthant of dimension $m-3$ (the largest possible number of internal branches). The orthants are then “glued together” along appropriate axes. Specifically, nearest neighbor interchange (NNI) topologies lie in adjacent non-negative orthants along the boundary corresponding to the collapse of the relevant NNI edge.
 
-For two trees with different topologies, the BHV distance is the length of the shortest path between them that remains in the treespace.  The length of any path can be computed by calculating the Euclidean distance of the path restricted to each orthant that it passes though, and summing these lengths.  The shortest path is called a geodesic, and will pass from one orthant to the next orthant through lower-dimensional boundaries
-corresponding to trees with fewer splits. Since the space is nonpositively  curved, the  geodesics are unique. 
+For two trees with different topologies, the BHV distance is the length of the shortest path between them that remains in the treespace.  The length of any path can be computed by calculating the Euclidean distance of the path restricted to each orthant that it passes though, and summing these lengths.  The shortest path is called a geodesic, and will pass from one orthant to the next orthant through lower-dimensional boundaries corresponding to trees with fewer splits. Since the space is nonpositively  curved, the geodesics are unique. 
+
+\begin{figure}
+ \includegraphics{Figs/OrthantBHV}
+ \caption{Orthants in the BHV space (one per topology) and geodesic paths between two trees corresponding to topologies $T$ and $T'$. Reproduced from \citet{Billera2001}.}
+\end{figure}
 
 In Euclidean space, the Fr\'echet mean is the point minimizing the sum of the squared distances to the sample points, and is equivalent to the coordinate-wise average of the sample points. The mean tree is not necessarily a refinement of the majority-rule consensus tree. Fr\'echet variance is the tree that minimize the sum of squared distances.  This variance is unique because treespace is non-positively curved. The Fr\'echet variance of a set of trees quantifies how spread out a set of trees is from their mean. See \cite{miller2015polyhedral,brown2017mean} for details.
 
