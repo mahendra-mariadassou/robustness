@@ -2,7 +2,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Detection of conflicting signal} \label{sec:extensions}
 
-Consensus trees assumes congruence among trees in the set. Trees that turn out to be far away from the consensus tree can be the sign of high variance or conflicting signals. While high variance implies weak phylogenetic signal, conflicting  signals implies incongruence. Most distance distances, such as RF, are discrete and lead to very coarse distance distributions. By contrast, continuous distances are a simple way to characterize variance and distinguish one from the other. Moreover continuous distance lend themselves nicely to standard aspects of inferential statistics such as confidence sets and hypothesis testing. 
+Consensus trees assumes congruence among trees in the set. Trees that turn out to be far away from the consensus tree can be the sign of high variance or conflicting signals. While high variance implies weak phylogenetic signal, conflicting  signals implies incongruence. Most distance distances, such as RF, are discrete and lead to very coarse distance distributions. By contrast, continuous distances are a simple way to characterize variance and distinguish one from the other. Moreover continuous distance lend themselves nicely to standard aspects of inferential statistics such as confidence sets and hypothesis testing.
 
 %Consider the space tree
 %\begin{itemize}
@@ -18,7 +18,7 @@ set of trees. It also provides a justification for disregarding portions of a co
 \subsection{Tree Space definition} \label{sec:Tree-distances}
  The distance $d(T_i,T_j)$ between two trees $T_i$ and $T_j$ account for differences with respect to both their tree topologies (branching structure) and branch lengths. The space is constructed by representing each of the $(2m-3)!!$ possible tree topologies by a single non-negative Euclidean orthant of dimension $m-3$ (the largest possible number of internal branches). The orthants are then “glued together” along appropriate axes. Specifically, nearest neighbor interchange (NNI) topologies lie in adjacent non-negative orthants along the boundary corresponding to the collapse of the relevant NNI edge.
 
-For two trees with different topologies, the BHV distance is the length of the shortest path between them that remains in the treespace.  The length of any path can be computed by calculating the Euclidean distance of the path restricted to each orthant that it passes though, and summing these lengths.  The shortest path is called a geodesic, and will pass from one orthant to the next orthant through lower-dimensional boundaries corresponding to trees with fewer splits. Since the space is nonpositively  curved, the geodesics are unique. 
+For two trees with different topologies, the BHV distance is the length of the shortest path between them that remains in the treespace.  The length of any path can be computed by calculating the Euclidean distance of the path restricted to each orthant that it passes though, and summing these lengths.  The shortest path is called a geodesic, and will pass from one orthant to the next orthant through lower-dimensional boundaries corresponding to trees with fewer splits. Since the space is nonpositively  curved, the geodesics are unique.
 
 \begin{figure}
  \includegraphics{Figs/OrthantBHV}
@@ -46,7 +46,10 @@ Recently, \cite{de2012phylo} developed a statistical non-parametric method to de
 %Kernel based methods (using a distance matrix) to find outlier and build confidence sets.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Need for a Strong Theoretical Framework} 
+\subsection{Conclusion}
 
-With the democratization of high-throughput sequencing, acquiring new genome data has ceased to be the limiting factor in phylogenetic, except maybe for organisms that are difficult to sample from the environment. In contrast, phylogeneticists are now faced with a rise in data errors, which stems from a flood of increasingly bogus genomic data that has become intractable by hand. Given the size of current and upcoming phylogenomic datasets (thousands of genes for hundreds —   and soon thousands —   of species), computational requirements are emerging as the new limiting factor. As multiple possible improvements are theoretically able to limit systematic error (and artefacts) during phylogenetic inference, we  need  to determine the set of properties that the ideal model of sequence of evolution should combine.  An alternative approach is to use robustness methods to downweight or discard portions of the data where model misspecification occurs potentially mitigating the estimation biases these data may incur. This latter, in combination with improved models, may ultimately allow the development of robust and efficient analytical
-tools that are also computationally tractable. 
+Nowadays efficient algorithms permit to compute means of continuous distances in a reasonable time. Moreover a huge amount of work has been done to derive mathematical properties of theses distances. Therefore it is possible to go from a theoretical work to applications and one may expect that many important biological questions could be solved thanks to theses tools.
+
+Genomic analysis leads to multiple trees du to different loci having different evolution history. Distances are useful tools to cluster trees and/or loci into congruent groups and performing separate inference on each group can lead to more robust phylogenetic estimates.
+The strong interest in this methods will be certainly maintain  in the following years.
+ 
