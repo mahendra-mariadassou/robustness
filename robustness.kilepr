@@ -60,60 +60,60 @@ Mode=LaTeX
 
 [item:Confidence.tex]
 archive=true
-column=27
+column=678
 encoding=UTF-8
 highlight=LaTeX
-line=7
+line=43
 mode=LaTeX
 open=true
-order=5
+order=4
 
 [item:Error_Sources.tex]
 archive=true
-column=272
+column=2
 encoding=UTF-8
 highlight=LaTeX
-line=39
+line=48
 mode=LaTeX
 open=true
 order=2
 
 [item:Extensions.tex]
 archive=true
-column=0
+column=383
 encoding=UTF-8
 highlight=LaTeX
-line=11
+line=55
 mode=LaTeX
 open=true
-order=4
+order=5
 
 [item:Motivation.tex]
 archive=true
-column=1032
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=11
+line=16
 mode=LaTeX
 open=true
 order=3
 
 [item:Robustness.tex]
 archive=true
-column=130
+column=229
 encoding=UTF-8
 highlight=LaTeX
-line=112
+line=167
 mode=LaTeX
 open=true
 order=1
 
 [item:book_chapter.tex]
 archive=true
-column=32
+column=18
 encoding=UTF-8
 highlight=LaTeX
-line=51
+line=28
 mode=LaTeX
 open=true
 order=0
@@ -129,37 +129,37 @@ open=false
 order=-1
 
 [view-settings,view=0,item:Confidence.tex]
-CursorColumn=27
-CursorLine=7
+CursorColumn=678
+CursorLine=43
 JumpList=
-ViMarks=.,7,26,[,7,26,],7,26
+ViMarks=.,43,678,[,43,678,],43,678
 
 [view-settings,view=0,item:Error_Sources.tex]
-CursorColumn=272
-CursorLine=39
+CursorColumn=2
+CursorLine=48
 JumpList=
-ViMarks=.,39,272,[,39,272,],39,272
+ViMarks=.,40,1,[,40,0,],40,1
 
 [view-settings,view=0,item:Extensions.tex]
-CursorColumn=0
-CursorLine=11
+CursorColumn=383
+CursorLine=55
 JumpList=
-ViMarks=.,11,0,[,11,0,],11,0
+ViMarks=.,55,382,[,55,379,],55,382
 
 [view-settings,view=0,item:Motivation.tex]
-CursorColumn=1032
-CursorLine=11
+CursorColumn=0
+CursorLine=16
 JumpList=
-ViMarks=.,11,917,[,11,913,],11,917
+ViMarks=.,32,99,[,32,99,],32,99
 
 [view-settings,view=0,item:Robustness.tex]
-CursorColumn=130
-CursorLine=112
+CursorColumn=229
+CursorLine=167
 JumpList=
-ViMarks=.,173,617,[,173,617,],173,617
+ViMarks=.,167,228,[,167,223,],167,228
 
 [view-settings,view=0,item:book_chapter.tex]
-CursorColumn=32
-CursorLine=51
+CursorColumn=18
+CursorLine=28
 JumpList=
 ViMarks=.,49,18,[,49,18,],49,18
