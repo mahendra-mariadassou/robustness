@@ -5,31 +5,33 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Applications of Phylogenies} \label{sec:applications}
 
-Molecular phylogenetics is a lively field of research with a number of practical applications. 
-Reconstructing large phylogenies, such as the bird [ref] or mammal phylogeny [ref], is of intrinsic interest 
-to evolutionary biologists, but those phylogenies also \emph{the basic structures necessary to think clearly about differences between species, and to analyze those differences statistically}~\citep{Felsenstein2004}. They arise frequently in comparative genomics, conservation issues~\citep{Bordewich2008}, functional prediction of genes~\citep{Eisen1998} and more generally are at the heart of Phylogenetic Comparative Methods~\citep{Revell2008, Pennell2013}. Most, if not all, applications of phylogenetics have in common that they rely on accurate phylogenetic trees and it is crucial to validate the tree as different trees can lead to vastly different conclusions concerning the origin and evolution of a trait \citep{Geneva2015}.  
+Molecular phylogenetics is a lively field of research with a number of practical applications.
+Reconstructing large phylogenies, such as the bird [ref] or mammal phylogeny [ref], is of intrinsic interest
+to evolutionary biologists, but those phylogenies are also \emph{the basic structures necessary to think clearly about differences between species, and to analyze those differences statistically}~\citep{Felsenstein2004}. They arise frequently in comparative genomics, conservation issues~\citep{Bordewich2008}, functional prediction of genes~\citep{Eisen1998} and more generally are at the heart of phylogenetic comparative methods~\citep{Revell2008, Pennell2013}. Most, if not all, applications of phylogenetics have in common that they rely on accurate phylogenetic trees and it is crucial to validate the tree as different trees can lead to vastly different conclusions concerning the origin and evolution of a trait \citep{Geneva2015}.
 
 With the advent of molecular data and increased formalism of the field~\citep{Gascuel2005a}, modern phylogenetic reconstruction is now essentially a statistical inference problem. Many popular reconstruction softwares such as PhyML~\citep{Guindon2003}, RAxML~\citep{Stamatakis2006}, FastTree~\citep{Price2010} or MrBayes~\citep{Ronquist2003} produce a statistical estimate of the tree and we therefore frame validation in a statistical framework. We first discuss the different sources of inaccuracies in the reconstructed tree (Section~\ref{sec:error-sources}) and distinguish between natural variability ($\simeq$ variance) and modeling errors ($\simeq$ bias). We then briefly describe and discuss popular support values (Section~\ref{sec:robustness}) aimed at validating a tree. In addition to support values, the variability observed in a forest of trees, can be summarized in order to produce robust tree estimates (Section~\ref{sec:consensus}). Finally, we end this chapter by reviewing promising developments in the field of continuous distance and highlight their use for validation (Section~\ref{sec:extensions})
 
-% We distinguish to natural uncertainty, due to lack of signal in the data, and other sources of inaccuracies, arising for example from erroneous sequence alignments, misspecified evolution models, etc. 
+% We distinguish to natural uncertainty, due to lack of signal in the data, and other sources of inaccuracies, arising for example from erroneous sequence alignments, misspecified evolution models, etc.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Validating the Tree} \label{sec:tree-validation}
 
-Many inference methods return a single focal tree and validation is most often concerned with it. A tree is a complex object that encodes the evolutionary relationship of a set of species. There are two families of validation methods based on (i) the scale at which validation is performed and (ii) whether the tree is considered by itself or with respect to other trees. 
+A tree is a complex object that encodes the evolutionary relationship of a set of species. Many inference methods return a single focal tree and validation is most often concerned with it. There are two families of validation methods based on (i) the scale at which validation is performed and (ii) whether the tree is considered by itself or with respect to other trees.
 
 \begin{itemize}
- \item The first family is \textbf{local} and grounded on the observation that a tree is uniquely determined by its branches \citep{Buneman1971}. A tree can thus be validated by computing a \emph{support value} for each of its branch. Support values tell us which parts of the tree are \emph{reliable}, in a yet to be defined way. 
- \item The second family is \textbf{global} and considers the focal tree as a single object rather than a collection of branches. It compares it to a set of alternative trees using statistical tests \citep{Shimodaira1999}. The tests tell us whether the tree is strictly better (\emph{i.e.} a better fit to the molecular data) than the alternatives. 
+ \item The first family is \textbf{local} and grounded on the observation that a tree is uniquely determined by its branches \citep{Buneman1971}. A tree can thus be validated by computing a \emph{support value} for each of its branch. Support values tell us which parts of the tree are \emph{reliable}, in a yet to be defined way.
+ \item The second family is \textbf{global} and considers the focal tree as a single object rather than a collection of branches. It compares it to a set of alternative trees using statistical tests \citep{Shimodaira1999}. The tests tell us whether the tree is strictly better (\emph{i.e.} a better fit to the molecular data) than the alternatives.
 \end{itemize}
 
-The two approaches have a different focus but are complimentary. In particular, global tests can be used to compute local support values. 
+The two approaches have a different focus but are complimentary. In particular, global tests can be used to compute local support values.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Robust Estimate} \label{sec:robust-estimate}
 
-Most softwares return the best tree for a given criteria (\emph{e.g.} likelihood for PhyML and RAxML). Support values tell us whether that tree is reliable and tests tell us whether it's much better than second best or other alternatives. 
+Most softwares return the best tree for a given criteria (\emph{e.g.} likelihood for PhyML and RAxML). Support values tell us whether that tree is reliable and tests tell us whether it's much better than second best or other alternatives.
 
-However, in the presence of outlier data, the superiority of the best tree may lie exclusively in a few data points: slight changes in the molecular data may dramatically change the best tree, with deep clades moving from one position in the tree to another~\citep{Bar-Hen2008}. Since molecular data are inherently noisy, it is interesting to produce \textbf{robust} trees that nearly, but not completely, optimize the criteria while being resilient to small changes in the molecular data. 
+However, in the presence of outlier data, the superiority of the best tree may lie exclusively in a few data points: slight changes in the molecular data may dramatically change the best tree, with deep clades moving from one position in the tree to another~\citep{Bar-Hen2008}. Since molecular data are inherently noisy, it is interesting to produce \textbf{robust} trees that nearly, but not completely, optimize the criteria while being resilient to small changes in the molecular data.
 
 A straighforward way to build a robust estimate is to start from a forest of \emph{good} trees and summarize them in some way to build a \textbf{consensus} tree. The forest can consist of trees that are only slightly worse than the best tree (\emph{e.g} bayesian consensus) or that are inferred from slightly perturbed data (\emph{e.g.} bootstrap consensus). 
+
+However,  more  recently,  the  statistical perspective that observed variability between collections of trees is interesting of itself has gained traction. This has spawned a number of modern methods that utilize the elegant mathematics of tree space to permit new data analysis methods and associated new insights in a number of different contexts
