@@ -26,7 +26,12 @@
 
 %opening
 \title{Tree Evaluation and Robustness Testing}
-\author{C'est nous}
+\author{Mahendra Mariadassou$^1$ \and Avner Bar-Hen$^2$ \and Hirohisa Kishino$^3$}
+\date{%
+$^1$INRA, France\\%
+$^2$CNAM, France\\%
+$^3$University of Tokyo, Japan%
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,11 +39,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\date{\today}
 \maketitle
 
 \begin{abstract}
-Inferring evolutionary histories (phylogenetic trees) has important applications but it is rare to observe a single evolutionary history unanimously implied by all genetic loci, and different genetic sites may conflict with respect to the implied phylogeny.  However, phylogenetic trees are complex mathematical objects that allows the study of the variability and bias of the estimates. In this paper we review the source of errors, how to construct consensus trees, outliers detection either at loci or species level as well as the definition on continuous distances on a tree space.
+Reconstructing phylogenies has become a common task in comparative biology. It is however difficult to construct fully reliable phylogenies: trees estimated from different loci may differ and different genetic characters may support different phylogenies. Validation and robustness assessment are therefore critical. Here, we review sources of errors and uncertainties and introduce support values used to characterize weak and strong parts of the tree. We also show to construct robust consensus trees from a robust and how to detect outliers at either the loci or species level. Finally, we show how continuous distances on a tree space can be used to frame validation in a statistical setting.
 \end{abstract}
 
 \tableofcontents
