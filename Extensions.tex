@@ -20,8 +20,12 @@ The  geometric  model of \citet{Billera2001} allows one to compare phylogenetic 
 For two trees with different topologies, the BHV distance is the length of the shortest path that link them in the treespace. The length of any path can be computed by calculating the Euclidean distance of the path restricted to each orthant that it passes though, and summing these lengths. The shortest path is called a geodesic, and will pass from one orthant to the next orthant through lower-dimensional boundaries corresponding to less resolved trees. Since the space is nonpositively  curved, the geodesics are unique.
 
 \begin{figure}
- \includegraphics{Figs/OrthantBHV}
- \caption{Orthants in the BHV space of trees with 4 leaves and examples of two geodesics. As illustrated, the geodesics are not identical and therefore depend on both the topology and the actual branch lengths. Reproduced from \citet{brown2017mean}.}
+\centering
+ \includegraphics[width = 0.5\linewidth]{Figs/OrthantBHV-bis}
+ \caption{Orthants in the BHV space of trees with 4 leaves and examples of two 
+geodesics. As illustrated, the geodesics are not identical and therefore depend 
+on both the topology and the actual branch lengths. Reproduced with 
+permission from \citet{Billera2001}. Copyright 2001, Elsevier.}
 \end{figure}
 
 In Euclidean space, the Fr\'echet mean is the point minimizing the sum of the squared distances to the sample points, and is equivalent to the coordinate-wise average of the sample points. Similarly, the Fr\'echet mean tree is the tree minimizing the sum of squared BHV distances to a set of tree and that sum is the variance which quantifies how spread out the forest is \citep{miller2015polyhedral,brown2017mean}. \citet{Billera2001} showed that mean is unique and is not necessarily a refinement of the majority-rule consensus.
